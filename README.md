@@ -17,7 +17,7 @@ IMPORTANT: For the purposes of image hashing, your BlueStacks window that Dragon
 
 Make sure your breeding cave and nursery are completely visible when zoomed in all the way. This usually means they are adjacent to each other, or close.
 
-Starting from when you first enter the game after the loading screen, record a macro using BlueStacks that moves the view window to where your nursery and breeding cave are. The macro should zoom in completely as well at some point. 
+OPTIONAL: Starting from when you first enter the game after the loading screen, record a macro using BlueStacks that moves the view window to where your nursery and breeding cave are. The macro should zoom in completely as well at some point. This allows the program to restart the plant farm automatically if you disconnect from the game while AFK.
 
 Take the following screenshots and place them in folder which in the same directory as your script. These screenshots must match the given names EXACTLY and be .png filetypes. It is best to cut off the edges for less margin of error. There are 16 required screenshots that you must take from your OWN Dragonvale game on your OWN BlueStacks instance! These are the required names for each of the screenshots and what each of them should look like:
 
