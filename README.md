@@ -37,9 +37,9 @@ The retry breed button that is part of the HUD of a breeding cave
 ![breeding_cave](https://user-images.githubusercontent.com/89762342/220868726-2d8a1228-9714-4db8-9fc8-409ef766514a.png) <br />
 An image of part of the breeding cave. Note that the in-game weather may sometimes cause particles to float in front of the breeding cave, so a smaller picture is preferable that is still able to be distinguished as the breeding cave (i.e. this image is found nowhere else on the screen other than the breeding cave).
 
-`continue.png`: <br />
+`continue.png` (OPTIONAL): <br />
 ![continue](https://user-images.githubusercontent.com/89762342/220869001-0effe59b-6f75-40ab-bde9-80ae273010f2.png) <br />
-An image of the "continue" button as a part of the error whenever the game loses connection. This error can be replicated by logging onto your park from another device while Dragonvale is running on BlueStacks.
+An image of the "continue" button as a part of the error whenever the game loses connection. This error can be replicated by logging onto your park from another device while Dragonvale is running on BlueStacks. This is optional, but allows the program to relaunch your game in case of the game disconnecting.
 
 `goals.png`: <br />
 ![goals](https://user-images.githubusercontent.com/89762342/220869331-09ae31c1-fd6f-450d-a192-63276cdb28a0.png) <br />
@@ -77,12 +77,12 @@ Can be found by opening the macro manager from the sidebar of BlueStacks. If you
 ![sell_button](https://user-images.githubusercontent.com/89762342/220870842-1170a148-a5e0-4b83-8858-3e4b5b6df7ca.png) <br />
 Can be found when tapping an egg that has finished incubating in the nursery.
 
-`try_again.png`: <br />
+`try_again.png` (OPTIONAL): <br />
 ![try_again](https://user-images.githubusercontent.com/89762342/220870904-08904ef8-0bc1-40a4-8598-b8ab75188bca.png) <br />
-This screenshot might be difficult to obtain; it only appears when Dragonvale experiences the Lightning Dragon in Server Room error. 
+This screenshot might be difficult to obtain; it only appears when Dragonvale experiences the Lightning Dragon in Server Room error. This is optional, but allows the program to relaunch your game in case of the game disconnecting.
 
 `yes_button.png`: <br />
 ![yes_button](https://user-images.githubusercontent.com/89762342/220871140-120bcdfe-ddef-4afe-add5-032da3647105.png) <br />
 After you click the sell button, this button will appear in the "Are you sure?" pop up.
 
-When all the screenshots have been taken and placed into a folder, in the source code (line 24) enter in the folder with all your screenshots.
+When all the screenshots have been taken and placed into a folder, in the source code (line 24) enter in the folder with all your screenshots. 
