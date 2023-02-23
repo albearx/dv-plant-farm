@@ -1,9 +1,6 @@
-import config
-import discord
+
 import pyautogui
 import time
-
-from discord.ext import commands
 from termcolor import colored
 
 # Preconditions: Breeding cave and nursery are on the same screen when completely
@@ -78,49 +75,6 @@ def set_preconditions():
     find_and_click(img_directory + '/place_in_nursery.png', 0.95, 'Set Preconditions')
     find_and_click(img_directory + '/breeding_cave.png', 0.95, 'Set Preconditions')
 
-# In the event of a game crash, relaunch the game and restart plant farm
-def reset_game():
-  global reset_count
-  reset_count += 1
-
-  loc = pyautogui.locateOnScreen(img_directory + '/continue.png', confidence=0.95)
-  if loc is None:
-    loc = pyautogui.locateOnScreen(img_directory + '/try_again.png', confidence=0.95)
-  
-  # If the game has crashed due to an in-game error, restart the game and bring view window back to farm area
-  if loc is not None:
-    pyautogui.click(pyautogui.center(loc))
-    
-    while (pyautogui.locateOnScreen(img_directory + '/goals_grey.png', confidence=0.95) is None and
-          pyautogui.locateOnScreen(img_directory + '/goals.png', confidence=0.95) is None):
-      time.sleep(10)
-
-    pyautogui.click(pyautogui.center(pyautogui.locateOnScreen(img_directory + '/macro_manager.png')))
-    time.sleep(1)
-    pyautogui.click(pyautogui.center(pyautogui.locateOnScreen(img_directory + '/play_macro.png')))
-    time.sleep(25) # should be at least the length of the macro used to move the view window
-  
-  # Else if there's somehow a nursery pop up that is preventing the program from continuing, close pop up
-  loc = pyautogui.locateOnScreen(img_directory + '/ok_button.png', confidence=0.95)
-  if loc is not None:
-    pyautogui.click(pyautogui.center(loc))
-  
-  # At this point, the nursery window should be in view.
-  # 10 attempts given to find the breeding cave; if breeding cave is not found then game condition is unfixable and terminate
-  attempts = 0
-  can_see_cave = False
-  while (can_see_cave is False and attempts < 10):
-    if (pyautogui.locateOnScreen(img_directory + '/breeding_cave.png', confidence=0.95) is not None):
-      can_see_cave = True
-    attempts += 1
-  
-  if can_see_cave is False:
-    raise Exception
-
-  # Set preconditions and restart farm
-  set_preconditions()
-  plant_farm()
-
 # Given an image path, find and click
 def find_and_click(image_path, conf, step):
   success = False
@@ -129,8 +83,7 @@ def find_and_click(image_path, conf, step):
   while (not success):
 
     if (fail_count >= 150):
-      print(colored('Too many consecutive fails, attempting to reset game', 'magenta'))
-      reset_game()
+      raise Exception
 
     loc = pyautogui.locateOnScreen(image_path, confidence = conf)
 
@@ -212,26 +165,6 @@ def plant_farm():
     print(colored('========================================================\n', 'cyan'))
     iteration += 1
 
-# intents = discord.Intents.all()
-# bot = commands.Bot(command_prefix='Hi Phil, ', intents=intents)
-
-# @bot.event
-# async def on_ready():
-#   await bot.change_presence(status=discord.Status.online, activity=discord.Game(name="Plant Farming Simulator"))
-#   channel = bot.get_channel(config.CHANNEL_ID)
-#   await channel.send("`Beginning plant farm on Ferf's park and Bear's park`")
-#   try:
-#     set_preconditions()
-#     plant_farm()
-#   except:
-#     print('Plant Farm terminated')
-
-#   global iteration
-
-#   await channel.send("`Plant farm process terminated after earning %d event currency per park (%d on double days) in %s, with an avg of %d EC/min (%d EC/min on double days).`" % (iteration * 3, iteration * 6, time_str, (iteration * 3) / (total_runtime / 60), (iteration * 6) / (total_runtime / 60)))
-#   exit()
-
-# bot.run(config.BOT_TOKEN)
 time.sleep(3)
 try:
   set_preconditions()
