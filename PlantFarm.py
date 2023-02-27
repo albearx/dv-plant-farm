@@ -1,9 +1,10 @@
-import config
-import discord
+# import config
+# import discord
+import os
 import pyautogui
 import time
 
-from discord.ext import commands
+# from discord.ext import commands
 from termcolor import colored
 
 # Preconditions: Breeding cave and nursery are on the same screen when completely
@@ -50,60 +51,75 @@ def set_preconditions():
       print(colored('Cave is occupied', 'yellow'))
       breed_complete = True
     attempts += 1
-  if breed_complete is False: print(colored('Nursery is not occupied', 'yellow'))
+  if breed_complete is False: print(colored('Cave is not occupied', 'yellow'))
 
   if (nursery_has_egg and breed_complete):
     print(colored('Set Preconditions Case 1', 'yellow'))
-    find_and_click(img_directory + '/nursery.png', 0.95, 'Set Preconditions')
+    find_and_click(img_directory + '/nursery.png', 0.95, 'Nursery')
     find_and_click(img_directory + '/hatch_plant_egg.png', 0.9, 'Hatch Plant Egg')
     find_and_click(img_directory + '/sell_button.png', 0.95, 'Sell Button')
-    find_and_click(img_directory + '/yes_button.png', 0.95, 'Set Preconditions')
-    find_and_click(img_directory + '/breed_heart.png', 0.95, 'Set Preconditions')
-    find_and_click(img_directory + '/place_in_nursery.png', 0.95, 'Set Preconditions')
-    find_and_click(img_directory + '/breeding_cave.png', 0.95, 'Set Preconditions')
+    find_and_click(img_directory + '/yes_button.png', 0.95, 'Yes Button')
+    find_and_click(img_directory + '/breed_heart.png', 0.95, 'Breed Complete')
+    find_and_click(img_directory + '/place_in_nursery.png', 0.95, 'Place in Nursery')
+    find_and_click(img_directory + '/breeding_cave.png', 0.95, 'Reselect Breeding Cave')
   elif nursery_has_egg:
     print(colored('Set Preconditions Case 2', 'yellow'))
-    find_and_click(img_directory + '/breeding_cave.png', 0.95, 'Set Preconditions')
+    find_and_click(img_directory + '/breeding_cave.png', 0.95, 'Reselect Breeding Cave')
   elif breed_complete:
     print(colored('Set Preconditions Case 3', 'yellow'))
-    find_and_click(img_directory + '/breed_heart.png', 0.95, 'Set Preconditions')
-    find_and_click(img_directory + '/place_in_nursery.png', 0.95, 'Set Preconditions')
-    find_and_click(img_directory + '/breeding_cave.png', 0.95, 'Set Preconditions')
+    find_and_click(img_directory + '/breed_heart.png', 0.95, 'Breed Complete')
+    find_and_click(img_directory + '/place_in_nursery.png', 0.95, 'Place in Nursery')
+    find_and_click(img_directory + '/breeding_cave.png', 0.95, 'Reselect Breeding Cave')
   else:
     print(colored('Set Preconditions Case 4', 'yellow'))
-    find_and_click(img_directory + '/breeding_cave.png', 0.95, 'Set Preconditions')
-    find_and_click(img_directory + '/breed_retry_button.png', 0.95, 'Set Preconditions')
-    find_and_click(img_directory + '/breed_button.png', 0.95, 'Set Preconditions')
-    find_and_click(img_directory + '/breed_heart.png', 0.95, 'Set Preconditions')
-    find_and_click(img_directory + '/place_in_nursery.png', 0.95, 'Set Preconditions')
-    find_and_click(img_directory + '/breeding_cave.png', 0.95, 'Set Preconditions')
+    find_and_click(img_directory + '/breeding_cave.png', 0.95, 'Reselect Breeding Cave')
+    find_and_click(img_directory + '/breed_retry_button.png', 0.95, 'Retry Breed Button')
+    find_and_click(img_directory + '/breed_button.png', 0.95, 'Breed Button')
+    find_and_click(img_directory + '/breed_heart.png', 0.95, 'Breed Complete')
+    find_and_click(img_directory + '/place_in_nursery.png', 0.95, 'Place in Nursery')
+    find_and_click(img_directory + '/breeding_cave.png', 0.95, 'Reselect Breeding Cave')
 
 # In the event of a game crash, relaunch the game and restart plant farm
 def reset_game():
+  restart_time = 30
+  # Crash due to other device connecting (give more time)
+  if pyautogui.locateOnScreen(img_directory + '/continue.png') is not None:
+    restart_time = 300
+  # Crash otherwise (shorter time till restart)
+  for i in range(restart_time, 0, -1):
+    if i % 10 == 0:
+      print(colored('Restarting in %d seconds' % (i), 'magenta'))
+      time.sleep(10)
   global reset_count
   reset_count += 1
 
-  loc = pyautogui.locateOnScreen(img_directory + '/continue.png', confidence=0.95)
-  if loc is None:
-    loc = pyautogui.locateOnScreen(img_directory + '/try_again.png', confidence=0.95)
-  
-  # If the game has crashed due to an in-game error, restart the game and bring view window back to farm area
-  if loc is not None:
-    pyautogui.click(pyautogui.center(loc))
-    
-    while (pyautogui.locateOnScreen(img_directory + '/goals_grey.png', confidence=0.95) is None and
+  print(colored('Tapping recent apps', 'magenta'))
+  pyautogui.click(pyautogui.center(pyautogui.locateOnScreen(img_directory + '/recent_apps.png')))
+  time.sleep(1)
+  print(colored('Clearing recent apps', 'magenta'))
+  pyautogui.click(pyautogui.center(pyautogui.locateOnScreen(img_directory + '/clear_all.png')))
+  time.sleep(1)
+  print(colored('Relaunching game', 'magenta'))
+  pyautogui.click(pyautogui.center(pyautogui.locateOnScreen(img_directory + '/dv_app.png')))
+  while (pyautogui.locateOnScreen(img_directory + '/goals_grey.png', confidence=0.95) is None and
           pyautogui.locateOnScreen(img_directory + '/goals.png', confidence=0.95) is None):
-      time.sleep(10)
+    time.sleep(3)
+  time.sleep(2)
 
-    pyautogui.click(pyautogui.center(pyautogui.locateOnScreen(img_directory + '/macro_manager.png')))
-    time.sleep(1)
-    pyautogui.click(pyautogui.center(pyautogui.locateOnScreen(img_directory + '/play_macro.png')))
-    time.sleep(25) # should be at least the length of the macro used to move the view window
+  # If there is a pop-up upon loading into the game
+  for i in range(3):
+    if pyautogui.locateOnScreen(img_directory + '/goals_grey.png', confidence=0.9999) is not None:
+      print(colored('Exiting pop up', 'magenta'))
+      pyautogui.press('esc')
+      time.sleep(0.7)
   
-  # Else if there's somehow a nursery pop up that is preventing the program from continuing, close pop up
-  loc = pyautogui.locateOnScreen(img_directory + '/ok_button.png', confidence=0.95)
-  if loc is not None:
-    pyautogui.click(pyautogui.center(loc))
+
+  print(colored('Moving view window to nursery area', 'magenta'))
+  pyautogui.click(pyautogui.center(pyautogui.locateOnScreen(img_directory + '/macro_manager.png')))
+  time.sleep(1)
+  pyautogui.click(pyautogui.center(pyautogui.locateOnScreen(img_directory + '/play_macro.png')))
+  time.sleep(23) # should be at least the length of the macro used to move the view window
+    
   
   # At this point, the nursery window should be in view.
   # 10 attempts given to find the breeding cave; if breeding cave is not found then game condition is unfixable and terminate
@@ -125,10 +141,13 @@ def reset_game():
 def find_and_click(image_path, conf, step):
   success = False
   fail_count = 0
-
+  fail_limit = 20
+  if step == 'Breed Complete':
+    fail_limit = 125
+  
   while (not success):
 
-    if (fail_count >= 150):
+    if (fail_count >= fail_limit):
       print(colored('Too many consecutive fails, attempting to reset game', 'magenta'))
       reset_game()
 
@@ -147,19 +166,27 @@ def find_and_click(image_path, conf, step):
       # Case where the Nursery HUD dips at the exact moment of click and the program clicks bottom left
       if (step == 'Hatch Plant Egg' and fail_count > 3):
         print(colored('Avoided critical miss in iteration %d' % iteration, 'green'))
-        find_and_click(img_directory + '/nursery.png', 0.93, 'Avoid Nursery HUD Dip Fail')
+        find_and_click(img_directory + '/nursery.png', 0.93, 'Nursery')
         find_and_click(img_directory + '/hatch_plant_egg.png', 0.9, 'Hatch Plant Egg')
 
       if (step == 'Sell Button' and fail_count > 2):
         print(colored('Avoided critical miss in iteration %d' % iteration, 'green'))
-        find_and_click(img_directory + '/nursery.png', 0.93, 'Avoid Nursery HUD Dip Fail 2')
+        find_and_click(img_directory + '/nursery.png', 0.93, 'Nursery')
         find_and_click(img_directory + '/hatch_plant_egg.png', 0.9, 'Hatch Plant Egg')
         find_and_click(img_directory + '/sell_button.png', 0.98, 'Sell Button')
         success = True
 
       fail_count += 1
-      print(colored('%s not found in iteration %d, trying again. Attempting game reset in %d more tries.' % (step, iteration, 150 - fail_count), 'red'))
-    time.sleep(0.5)
+      print(colored('%s not found in iteration %d, trying again. Attempting game reset in %d more tries.' % (step, iteration, fail_limit - fail_count), 'red'))
+    
+    sleep_time = 0.5
+    if step == 'Nursery':
+      sleep_time += 0.35
+    if step == 'Hatch Plant Egg':
+      sleep_time += 0.15
+    if step == 'Reselect Breeding Cave':
+      sleep_time += 0.2
+    time.sleep(sleep_time)
 
 
 def plant_farm():
@@ -232,10 +259,16 @@ def plant_farm():
 #   exit()
 
 # bot.run(config.BOT_TOKEN)
-time.sleep(3)
+os.system('color')
+
+for x in range(3, 0, -1):
+  print(colored('Starting plant farm in %d seconds...' % x, 'magenta'))
+  time.sleep(1)
+
 try:
   set_preconditions()
   print(colored('Preconditions set, beginning plant farm', 'yellow'))
   plant_farm()
 except:
-  print('Plant Farm Terminated')
+  print(colored('Plant Farm Terminated', 'magenta'))
+

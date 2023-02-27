@@ -42,12 +42,12 @@ def set_preconditions():
 
   attempts = 0
   print(colored('Checking if cave is occupied...', 'yellow'))
-  while breed_complete is False and attempts < 10:
+  while breed_complete is False and attempts < 15:
     if pyautogui.locateOnScreen(img_directory + '/breed_heart.png', confidence = 0.95) is not None:
       print(colored('Cave is occupied', 'yellow'))
       breed_complete = True
     attempts += 1
-  if breed_complete is False: print(colored('Nursery is not occupied', 'yellow'))
+  if breed_complete is False: print(colored('Cave is not occupied', 'yellow'))
 
   if (nursery_has_egg and breed_complete):
     print(colored('Set Preconditions Case 1', 'yellow'))
