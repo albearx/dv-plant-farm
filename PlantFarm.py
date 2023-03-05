@@ -1,5 +1,6 @@
 # import config
 # import discord
+import asyncio
 import os
 import pyautogui
 import time
@@ -193,7 +194,7 @@ def find_and_click(image_path, conf, step):
     time.sleep(sleep_time)
 
 
-def plant_farm():
+def plant_farm(discord):
   global iteration
   global time_str
   global total_runtime
@@ -242,6 +243,9 @@ def plant_farm():
     print(colored('Reset count: %d' % reset_count, 'cyan'))
     print(colored('========================================================\n', 'cyan'))
     iteration += 1
+    if (discord):
+      asyncio.sleep(1);
+    
 
 # intents = discord.Intents.all()
 # bot = commands.Bot(command_prefix='Hi Phil, ', intents=intents)
