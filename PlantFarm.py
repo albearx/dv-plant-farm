@@ -179,13 +179,17 @@ def find_and_click(image_path, conf, step):
       fail_count += 1
       print(colored('%s not found in iteration %d, trying again. Attempting game reset in %d more tries.' % (step, iteration, fail_limit - fail_count), 'red'))
     
-    sleep_time = 0.5
+    sleep_time = 0.4
     if step == 'Nursery':
-      sleep_time += 0.35
+      sleep_time += 0.6
     if step == 'Hatch Plant Egg':
-      sleep_time += 0.15
+      sleep_time += 0.1
+    # if step == 'Breed Complete':
+    #   sleep_time += 0.2
+    if step == 'Yes Button':
+      sleep_time += 0.3
     if step == 'Reselect Breeding Cave':
-      sleep_time += 0.2
+      sleep_time += 0.3
     time.sleep(sleep_time)
 
 
