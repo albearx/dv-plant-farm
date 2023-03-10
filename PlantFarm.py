@@ -1,11 +1,11 @@
-# import config
-# import discord
+import config
+import discord
 import asyncio
 import os
 import pyautogui
 import time
 
-# from discord.ext import commands
+from discord.ext import commands
 from termcolor import colored
 
 # Preconditions: Breeding cave and nursery are on the same screen when completely
@@ -194,7 +194,7 @@ def find_and_click(image_path, conf, step):
     time.sleep(sleep_time)
 
 
-def plant_farm(discord):
+def plant_farm():
   global iteration
   global time_str
   global total_runtime
@@ -243,10 +243,7 @@ def plant_farm(discord):
     print(colored('Reset count: %d' % reset_count, 'cyan'))
     print(colored('========================================================\n', 'cyan'))
     iteration += 1
-    if (discord):
-      asyncio.sleep(1);
     
-
 # intents = discord.Intents.all()
 # bot = commands.Bot(command_prefix='Hi Phil, ', intents=intents)
 
@@ -254,10 +251,10 @@ def plant_farm(discord):
 # async def on_ready():
 #   await bot.change_presence(status=discord.Status.online, activity=discord.Game(name="Plant Farming Simulator"))
 #   channel = bot.get_channel(config.CHANNEL_ID)
-#   await channel.send("`Beginning plant farm on Ferf's park and Bear's park`")
+#   await channel.send("`Beginning plant farm on Bear's park`")
 #   try:
 #     set_preconditions()
-#     plant_farm()
+#     await plant_farm()
 #   except:
 #     print('Plant Farm terminated')
 
@@ -267,6 +264,7 @@ def plant_farm(discord):
 #   exit()
 
 # bot.run(config.BOT_TOKEN)
+
 os.system('color')
 
 for x in range(3, 0, -1):
