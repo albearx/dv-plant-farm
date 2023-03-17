@@ -227,7 +227,7 @@ def find_and_click(image_path, conf, step):
     else:
       
       # Case where the Nursery HUD dips at the exact moment of click and the program clicks bottom left
-      if (step == 'Hatch Plant Egg' and fail_count > 3):
+      if (step == 'Hatch Plant Egg' and fail_count > 2):
         # print(colored('Avoided critical miss in iteration %d' % iteration, 'green'))
         stdscr.move(8, 0)
         stdscr.clrtoeol()
