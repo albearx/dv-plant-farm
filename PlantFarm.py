@@ -2,6 +2,8 @@ import curses
 import os
 import pyautogui
 import time
+import threading
+import keyboard
 
 from termcolor import colored
 
@@ -36,6 +38,7 @@ curses.init_pair(5, curses.COLOR_MAGENTA, curses.COLOR_BLACK)
 stdscr.keypad(True)
 stdscr.nodelay(True)
 
+execute = True
 img_directory = './WinLaptopImgs'
 iteration = 1
 time_str = '0s'
@@ -273,6 +276,8 @@ def plant_farm():
   global total_runtime
   global start
   global reset_count
+  global execute
+
   stdscr.clear()
   stdscr.addstr(0, 0, 'Total EC: - (- on double days)', curses.color_pair(4))
   stdscr.addstr(1, 0, '- iterations completed in -', curses.color_pair(4))
@@ -281,7 +286,8 @@ def plant_farm():
   stdscr.addstr(4, 0, 'Reset count: -', curses.color_pair(4))
   stdscr.addstr(5, 0, '========================================================', curses.color_pair(4))
   stdscr.refresh()
-  while True: 
+
+  while execute:
 		
     iteration_start = time.time()
     # print(colored('Beginning iteration %d' % iteration, 'cyan'))
@@ -341,19 +347,29 @@ def plant_farm():
 
 # Main script
 
+def start_farm():
+  for x in range(3, 0, -1):
+    stdscr.clear()
+    stdscr.addstr('Starting plant farm in %d seconds...' % x, curses.color_pair(5))
+    stdscr.refresh()
+    time.sleep(1)
 
-for x in range(3, 0, -1):
-  stdscr.clear()
-  stdscr.addstr('Starting plant farm in %d seconds...' % x, curses.color_pair(5))
-  stdscr.refresh()
-  time.sleep(1)
+  try:
+    set_preconditions()
+    stdscr.clear()
+    stdscr.addstr('Preconditions set, beginning plant farm', curses.color_pair(3))
+    stdscr.refresh()
+    plant_farm()
+  except:
+    print(colored('Earned a total of %d EC (%d EC on double days) in %s' % (iteration * 3, iteration * 6, time_str), 'cyan'))
+    print(colored('Plant Farm Terminated', 'magenta'))
 
-try:
-  set_preconditions()
-  stdscr.clear()
-  stdscr.addstr('Preconditions set, beginning plant farm', curses.color_pair(3))
-  stdscr.refresh()
-  plant_farm()
-except:
+farm_thread = threading.Thread(target=start_farm)
+farm_thread.start()
+
+keyboard.add_hotkey('space', lambda: exec("global execute; execute = False"))
+farm_thread.join()
+
+if execute == False:
   print(colored('Earned a total of %d EC (%d EC on double days) in %s' % (iteration * 3, iteration * 6, time_str), 'cyan'))
   print(colored('Plant Farm Terminated', 'magenta'))
