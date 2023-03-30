@@ -4,8 +4,13 @@ import pyautogui
 import time
 import threading
 import keyboard
-
+import sys
+from pywinauto import Desktop, Application
 from termcolor import colored
+
+script_path = os.path.abspath(os.path.dirname(__file__))
+os.chdir(script_path)
+
 
 # Preconditions: Breeding cave and nursery are on the same screen when completely
 # zoomed in with either selected.
@@ -60,30 +65,35 @@ def set_preconditions():
 
   # print(colored('Checking for plant egg in nursery...', 'yellow'))
   while nursery_has_egg is False and attempts < 10:
-    if pyautogui.locateOnScreen(img_directory + '/nursery.png', confidence = 0.95) is not None:
+    if pyautogui.locateOnScreen(img_directory + '/nursery.png', confidence = 0.9) is not None:
       # print(colored('Nursery has plant egg', 'yellow'))
+      stdscr.clear()
       stdscr.addstr(0, 0, 'Nursery has plant egg', curses.color_pair(3))
       stdscr.refresh()
       nursery_has_egg = True
     attempts += 1
   if nursery_has_egg is False:
     # print(colored('Nursery does not have plant egg', 'yellow'))
+    stdscr.clear()
     stdscr.addstr(0, 0, 'Nursery does not have plant egg', curses.color_pair(3))
     stdscr.refresh()
 
   attempts = 0
   # print(colored('Checking if cave is occupied...', 'yellow'))
+  stdscr.clear()
   stdscr.addstr(1, 0, 'Checking if cave is occupied...', curses.color_pair(3))
   stdscr.refresh()
   while breed_complete is False and attempts < 10:
-    if pyautogui.locateOnScreen(img_directory + '/breed_heart.png', confidence = 0.95) is not None:
+    if pyautogui.locateOnScreen(img_directory + '/breed_heart.png', confidence = 0.93) is not None:
       # print(colored('Cave is occupied', 'yellow'))
+      stdscr.clear()
       stdscr.addstr(1, 0, 'Cave is occupied', curses.color_pair(3))
       stdscr.refresh()
       breed_complete = True
     attempts += 1
   if breed_complete is False:
     # print(colored('Cave is not occupied', 'yellow'))
+    stdscr.clear()
     stdscr.addstr(1, 0, 'Cave is not occupied', curses.color_pair(3))
     stdscr.refresh()
 
@@ -92,7 +102,7 @@ def set_preconditions():
     stdscr.addstr(0, 0, 'Set Preconditions Case 1', curses.color_pair(3))
     stdscr.refresh()
     # print(colored('Set Preconditions Case 1', 'yellow'))
-    find_and_click(img_directory + '/nursery.png', 0.95, 'Nursery')
+    find_and_click(img_directory + '/nursery.png', 0.9, 'Nursery')
     find_and_click(img_directory + '/hatch_plant_egg.png', 0.9, 'Hatch Plant Egg')
     find_and_click(img_directory + '/sell_button.png', 0.95, 'Sell Button')
     find_and_click(img_directory + '/yes_button.png', 0.95, 'Yes Button')
@@ -128,14 +138,14 @@ def set_preconditions():
 # In the event of a game crash, relaunch the game and restart plant farm
 def reset_game():
   global stdscr
-  restart_time = 30
+  restart_time = 5
   # Crash due to other device connecting (give more time)
   if pyautogui.locateOnScreen(img_directory + '/continue.png') is not None:
     restart_time = 300
   # Crash otherwise (shorter time till restart)
   for x in range(restart_time, 0, -1):
     stdscr.clear()
-    stdscr.addstr('Starting plant farm in %d seconds...' % x, curses.color_pair(5))
+    stdscr.addstr('Restarting plant farm in %d seconds...' % x, curses.color_pair(5))
     stdscr.refresh()
     time.sleep(1)
 
@@ -157,6 +167,7 @@ def reset_game():
   stdscr.addstr('Relaunching', curses.color_pair(5))
   stdscr.refresh()
   pyautogui.click(pyautogui.center(pyautogui.locateOnScreen(img_directory + '/dv_app.png')))
+
   while (pyautogui.locateOnScreen(img_directory + '/goals_grey.png', confidence=0.95) is None and
           pyautogui.locateOnScreen(img_directory + '/goals.png', confidence=0.95) is None):
     time.sleep(3)
@@ -165,7 +176,9 @@ def reset_game():
   # If there is a pop-up upon loading into the game
   for i in range(3):
     if pyautogui.locateOnScreen(img_directory + '/goals_grey.png', confidence=0.9999) is not None:
-      print(colored('Exiting pop up', 'magenta'))
+      stdscr.clear()
+      stdscr.addstr('Exiting Pop Ups', curses.color_pair(5))
+      stdscr.refresh()
       pyautogui.press('esc')
       time.sleep(0.7)
   
@@ -176,7 +189,7 @@ def reset_game():
   pyautogui.click(pyautogui.center(pyautogui.locateOnScreen(img_directory + '/macro_manager.png')))
   time.sleep(1)
   pyautogui.click(pyautogui.center(pyautogui.locateOnScreen(img_directory + '/play_macro.png')))
-  time.sleep(23) # should be at least the length of the macro used to move the view window
+  time.sleep(19) # should be at least the length of the macro used to move the view window
     
   
   # At this point, the nursery window should be in view.
@@ -230,7 +243,7 @@ def find_and_click(image_path, conf, step):
     else:
       
       # Case where the Nursery HUD dips at the exact moment of click and the program clicks bottom left
-      if (step == 'Hatch Plant Egg' and fail_count > 2):
+      if (step == 'Hatch Plant Egg' and fail_count > 1):
         # print(colored('Avoided critical miss in iteration %d' % iteration, 'green'))
         stdscr.move(8, 0)
         stdscr.clrtoeol()
@@ -256,17 +269,19 @@ def find_and_click(image_path, conf, step):
       stdscr.clrtoeol()
       stdscr.addstr(8, 0, '%s not found in iteration %d, trying again. Attempting game reset in %d more tries.' % (step, iteration, fail_limit - fail_count), curses.color_pair(1))
       stdscr.refresh()
-    sleep_time = 0.4
+    sleep_time = 0.37
     if step == 'Nursery':
-      sleep_time += 0.6
+      sleep_time += 1
     if step == 'Hatch Plant Egg':
-      sleep_time += 0.1
+      sleep_time += 0.1 - 0.05
     # if step == 'Breed Complete':
-    #   sleep_time += 0.2
-    if step == 'Yes Button':
-      sleep_time += 0.3
+    #   sleep_time += 0.1 - 0.05
+    # if step == 'Yes Button':
+    #   sleep_time += 0.1 + 0.1
+    if step == 'Place in Nursery':
+      sleep_time += 0.2 
     if step == 'Reselect Breeding Cave':
-      sleep_time += 0.3
+      sleep_time += 0.2
     time.sleep(sleep_time)
 
 
@@ -283,8 +298,9 @@ def plant_farm():
   stdscr.addstr(1, 0, '- iterations completed in -', curses.color_pair(4))
   stdscr.addstr(2, 0, 'Previous iteration duration: -', curses.color_pair(4))
   stdscr.addstr(3, 0, 'Average rate: - EC/min (- EC/min on double days)', curses.color_pair(4))
-  stdscr.addstr(4, 0, 'Reset count: -', curses.color_pair(4))
-  stdscr.addstr(5, 0, '========================================================', curses.color_pair(4))
+  stdscr.addstr(4, 0, 'Hourly rate: - EC/hr (- EC/hr on double days)', curses.color_pair(4))
+  stdscr.addstr(5, 0, 'Reset count: -', curses.color_pair(4))
+  stdscr.addstr(6, 0, '========================================================', curses.color_pair(4))
   stdscr.refresh()
 
   while execute:
@@ -337,8 +353,9 @@ def plant_farm():
     stdscr.addstr(1, 0, '%d iterations completed in %s' % (iteration, time_str), curses.color_pair(4))
     stdscr.addstr(2, 0, 'Previous iteration duration: %.2fs' % (iteration_end - iteration_start), curses.color_pair(4))
     stdscr.addstr(3, 0, 'Average rate: %.1f EC/min (%.1f EC/min on double days)' % (float(iteration * 3) / (total_runtime / 60), float(iteration * 6) / (total_runtime / 60)), curses.color_pair(4))
-    stdscr.addstr(4, 0, 'Reset count: %d' % reset_count, curses.color_pair(4))
-    stdscr.addstr(5, 0, '========================================================', curses.color_pair(4))
+    stdscr.addstr(4, 0, 'Hourly rate: %.1f EC/hr (%.1f EC/hr on double days)' % (float(iteration * 3) / (total_runtime / 3600), float(iteration * 6) / (total_runtime / 3600)), curses.color_pair(4))
+    stdscr.addstr(5, 0, 'Reset count: %d' % reset_count, curses.color_pair(4))
+    stdscr.addstr(6, 0, '========================================================', curses.color_pair(4))
 
     stdscr.refresh()
 
@@ -363,13 +380,15 @@ def start_farm():
   except:
     print(colored('Earned a total of %d EC (%d EC on double days) in %s' % (iteration * 3, iteration * 6, time_str), 'cyan'))
     print(colored('Plant Farm Terminated', 'magenta'))
+    
 
 farm_thread = threading.Thread(target=start_farm)
 farm_thread.start()
 
 keyboard.add_hotkey('space', lambda: exec("global execute; execute = False"))
 farm_thread.join()
-
+curses.endwin()
 if execute == False:
   print(colored('Earned a total of %d EC (%d EC on double days) in %s' % (iteration * 3, iteration * 6, time_str), 'cyan'))
   print(colored('Plant Farm Terminated', 'magenta'))
+

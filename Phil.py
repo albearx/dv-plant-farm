@@ -28,5 +28,6 @@ async def on_ready():
   await bot.change_presence(status=discord.Status.online, activity=discord.Game(name="Plant Farming Simulator"))
   channel = bot.get_channel(config.CHANNEL_ID)
   await channel.send("Phil is online")
+  PlantFarm.set_preconditions()
   
 bot.run(config.BOT_TOKEN)
