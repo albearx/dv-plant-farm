@@ -65,10 +65,6 @@ Can be found in the sidebar of the BlueStacks instance. This will allow the prog
 ![nursery](https://user-images.githubusercontent.com/89762342/220869990-0fa513c0-ba41-4cc8-ae82-f97d34077d90.png) <br />
 This is a picture of a plant dragon egg in the nursery. THIS IS NOT THE IMAGE OF THE EGG IN THE HUD. If done right, it should look smaller than `hatch_plant_egg.png`.
 
-`ok_button.png`: <br />
-![ok_button](https://user-images.githubusercontent.com/89762342/220870211-440bc6f5-3e21-4ffc-ab09-ea78685bd5f5.png) <br />
-An image of the OK button. Can be found whenever the nursery is full and you hit the breed complete heart bubble.
-
 `place_in_nursery.png`: <br />
 ![place_in_nursery](https://user-images.githubusercontent.com/89762342/220870409-1c5993c4-a13f-49ff-89dd-a0b941ed9916.png) <br />
 An image of the Place in Nursery button. Can be found by tapping the breed complete bubble with space in the nursery.
@@ -78,16 +74,12 @@ An image of the Place in Nursery button. Can be found by tapping the breed compl
 Can be found by opening the macro manager from the sidebar of BlueStacks. If you only have one macro, you only need the play button, but I had multiple macros so I included more in the image to distinguish this specific macro with the content on the left. Keep in mind that the script will always try to tap the middle of the given image.
 
 `recent_apps.png`: <br />
-![recent_apps](https://user-images.githubusercontent.com/89762342/228917795-dfc6ea7b-a9c2-4881-b343-7fcb939f07fc.png)
+![recent_apps](https://user-images.githubusercontent.com/89762342/228917795-dfc6ea7b-a9c2-4881-b343-7fcb939f07fc.png) <br />
 The recent app icon, found at the top of the Bluestacks emulator window.
 
 `sell_button.png`: <br />
 ![sell_button](https://user-images.githubusercontent.com/89762342/220870842-1170a148-a5e0-4b83-8858-3e4b5b6df7ca.png) <br />
 Can be found when tapping an egg that has finished incubating in the nursery.
-
-`try_again.png` (OPTIONAL): <br />
-![try_again](https://user-images.githubusercontent.com/89762342/220870904-08904ef8-0bc1-40a4-8598-b8ab75188bca.png) <br />
-This screenshot might be difficult to obtain; it only appears when Dragonvale experiences the Lightning Dragon in Server Room error. This is optional, but allows the program to relaunch your game in case of the game disconnecting.
 
 `yes_button.png`: <br />
 ![yes_button](https://user-images.githubusercontent.com/89762342/220871140-120bcdfe-ddef-4afe-add5-032da3647105.png) <br />
