@@ -6,7 +6,7 @@ After cloning (and ensuring python and pip are installed):
 `pip install pyautogui` <br />
 `pip install Pillow`  <br />
 `pip install opencv-python` <br />
-`pip install discord.py` <br />
+`pip install windows-curses` <br />
 `pip install colored` <br />
 
 The script itself is in `PlantFarm.py`. All code line numbers refer to within this file.
@@ -41,6 +41,10 @@ An image of part of the breeding cave. Note that the in-game weather may sometim
 ![continue](https://user-images.githubusercontent.com/89762342/220869001-0effe59b-6f75-40ab-bde9-80ae273010f2.png) <br />
 An image of the "continue" button as a part of the error whenever the game loses connection. This error can be replicated by logging onto your park from another device while Dragonvale is running on BlueStacks. This is optional, but allows the program to relaunch your game in case of the game disconnecting.
 
+`dv_app.png` <br />
+![dv_app](https://user-images.githubusercontent.com/89762342/228917601-550b0c27-5a3d-4006-89be-e87ed756c9ed.png) <br />
+An image of the app icon in your emulator.
+
 `goals.png`: <br />
 ![goals](https://user-images.githubusercontent.com/89762342/220869331-09ae31c1-fd6f-450d-a192-63276cdb28a0.png) <br />
 An image of the Goals button as part of the in-game HUD. Used to ensure that the park is loaded, as this button is always present in the park.
@@ -73,6 +77,10 @@ An image of the Place in Nursery button. Can be found by tapping the breed compl
 ![play_macro](https://user-images.githubusercontent.com/89762342/220870510-094b667e-59aa-43e2-9c4d-eb5ac6ca90f6.png) <br />
 Can be found by opening the macro manager from the sidebar of BlueStacks. If you only have one macro, you only need the play button, but I had multiple macros so I included more in the image to distinguish this specific macro with the content on the left. Keep in mind that the script will always try to tap the middle of the given image.
 
+`recent_apps.png`: <br />
+![recent_apps](https://user-images.githubusercontent.com/89762342/228917795-dfc6ea7b-a9c2-4881-b343-7fcb939f07fc.png)
+The recent app icon, found at the top of the Bluestacks emulator window.
+
 `sell_button.png`: <br />
 ![sell_button](https://user-images.githubusercontent.com/89762342/220870842-1170a148-a5e0-4b83-8858-3e4b5b6df7ca.png) <br />
 Can be found when tapping an egg that has finished incubating in the nursery.
@@ -85,4 +93,4 @@ This screenshot might be difficult to obtain; it only appears when Dragonvale ex
 ![yes_button](https://user-images.githubusercontent.com/89762342/220871140-120bcdfe-ddef-4afe-add5-032da3647105.png) <br />
 After you click the sell button, this button will appear in the "Are you sure?" pop up.
 
-When all the screenshots have been taken and placed into a folder, in the source code (line 24) enter in the folder with all your screenshots. 
+When all the screenshots have been taken and placed into a folder, in the source code (line 45 of PlantFarm.py) assign the name of the folder with your screenshots to `img_directory`. 
