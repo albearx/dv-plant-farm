@@ -6,10 +6,10 @@ After cloning (and ensuring python and pip are installed):
 `pip install pyautogui` <br />
 `pip install Pillow`  <br />
 `pip install opencv-python` <br />
-`pip install windows-curses` <br />
+`pip install windows-curses` (if you're using Windows)<br />
 `pip install colored` <br />
 
-The script itself is in `PlantFarm.py`. All code line numbers refer to within this file.
+The script itself is in `PlantFarm.py`. Included is also a simpler version that does not have restart functionality, but may be a little easier to set up. All code line numbers refer to within this file.
 
 Install BlueStacks emulator and download Dragonvale on your BlueStacks instance: https://www.bluestacks.com/
 
@@ -37,19 +37,19 @@ The retry breed button that is part of the HUD of a breeding cave
 ![breeding_cave](https://user-images.githubusercontent.com/89762342/220868726-2d8a1228-9714-4db8-9fc8-409ef766514a.png) <br />
 An image of part of the breeding cave. Note that the in-game weather may sometimes cause particles to float in front of the breeding cave, so a smaller picture is preferable that is still able to be distinguished as the breeding cave (i.e. this image is found nowhere else on the screen other than the breeding cave).
 
-`continue.png` (OPTIONAL): <br />
+`continue.png` (not needed for PlantFarmSimple): <br />
 ![continue](https://user-images.githubusercontent.com/89762342/220869001-0effe59b-6f75-40ab-bde9-80ae273010f2.png) <br />
 An image of the "continue" button as a part of the error whenever the game loses connection. This error can be replicated by logging onto your park from another device while Dragonvale is running on BlueStacks. This is optional, but allows the program to relaunch your game in case of the game disconnecting.
 
-`dv_app.png` <br />
+`dv_app.png` (not needed for PlantFarmSimple): <br />
 ![dv_app](https://user-images.githubusercontent.com/89762342/228917601-550b0c27-5a3d-4006-89be-e87ed756c9ed.png) <br />
 An image of the app icon in your emulator.
 
-`goals.png`: <br />
+`goals.png` (not needed for PlantFarmSimple):: <br />
 ![goals](https://user-images.githubusercontent.com/89762342/220869331-09ae31c1-fd6f-450d-a192-63276cdb28a0.png) <br />
 An image of the Goals button as part of the in-game HUD. Used to ensure that the park is loaded, as this button is always present in the park.
 
-`goals_grey.png`: <br />
+`goals_grey.png` (not needed for PlantFarmSimple):: <br />
 ![goals_grey](https://user-images.githubusercontent.com/89762342/220869468-03072a68-5c77-4b05-9304-7f09155f321e.png) <br />
 Similar to above, but in the event of a pop up currently occupying the screen.
 
@@ -57,7 +57,7 @@ Similar to above, but in the event of a pop up currently occupying the screen.
 ![hatch_plant_egg](https://user-images.githubusercontent.com/89762342/220869618-a05da3c1-2061-4dc7-83f3-074c92217485.png) <br />
 This screenshot can be taken by selecting the nursery, and snipping the middle of the plant dragon egg in the HUD. THIS IS NOT THE IMAGE OF THE EGG IN THE ACTUAL NURSERY.
 
-`macro_manager.png`: <br />
+`macro_manager.png` (not needed for PlantFarmSimple):: <br />
 ![macro_manager](https://user-images.githubusercontent.com/89762342/220869840-cee744f5-9f65-40ad-a22f-aa87610cc66b.png) <br />
 Can be found in the sidebar of the BlueStacks instance. This will allow the program to open up the macro menu.
 
@@ -73,7 +73,7 @@ An image of the Place in Nursery button. Can be found by tapping the breed compl
 ![play_macro](https://user-images.githubusercontent.com/89762342/220870510-094b667e-59aa-43e2-9c4d-eb5ac6ca90f6.png) <br />
 Can be found by opening the macro manager from the sidebar of BlueStacks. If you only have one macro, you only need the play button, but I had multiple macros so I included more in the image to distinguish this specific macro with the content on the left. Keep in mind that the script will always try to tap the middle of the given image.
 
-`recent_apps.png`: <br />
+`recent_apps.png` (not needed for PlantFarmSimple):: <br />
 ![recent_apps](https://user-images.githubusercontent.com/89762342/228917795-dfc6ea7b-a9c2-4881-b343-7fcb939f07fc.png) <br />
 The recent app icon, found at the top of the Bluestacks emulator window.
 
