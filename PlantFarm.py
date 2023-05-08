@@ -104,43 +104,43 @@ def set_preconditions():
     # print(colored('Set Preconditions Case 1', 'yellow'))
     find_and_click(img_directory + '/nursery.png', 0.9, 'Nursery')
     find_and_click(img_directory + '/hatch_plant_egg.png', 0.9, 'Hatch Plant Egg')
-    find_and_click(img_directory + '/sell_button.png', 0.95, 'Sell Button')
-    find_and_click(img_directory + '/yes_button.png', 0.95, 'Yes Button')
-    find_and_click(img_directory + '/breed_heart.png', 0.95, 'Breed Complete')
-    find_and_click(img_directory + '/place_in_nursery.png', 0.95, 'Place in Nursery')
-    find_and_click(img_directory + '/breeding_cave.png', 0.95, 'Reselect Breeding Cave')
+    find_and_click(img_directory + '/sell_button.png', 0.9, 'Sell Button')
+    find_and_click(img_directory + '/yes_button.png', 0.9, 'Yes Button')
+    find_and_click(img_directory + '/breed_heart.png', 0.9, 'Breed Complete')
+    find_and_click(img_directory + '/place_in_nursery.png', 0.9, 'Place in Nursery')
+    find_and_click(img_directory + '/breeding_cave.png', 0.9, 'Reselect Breeding Cave')
   elif nursery_has_egg:
     stdscr.clear()
     stdscr.addstr(0, 0, 'Set Preconditions Case 2', curses.color_pair(3))
     stdscr.refresh()
     # print(colored('Set Preconditions Case 2', 'yellow'))
-    find_and_click(img_directory + '/breeding_cave.png', 0.95, 'Reselect Breeding Cave')
+    find_and_click(img_directory + '/breeding_cave.png', 0.9, 'Reselect Breeding Cave')
   elif breed_complete:
     stdscr.clear()
     stdscr.addstr(0, 0, 'Set Preconditions Case 3', curses.color_pair(3))
     stdscr.refresh()
     # print(colored('Set Preconditions Case 3', 'yellow'))
-    find_and_click(img_directory + '/breed_heart.png', 0.95, 'Breed Complete')
-    find_and_click(img_directory + '/place_in_nursery.png', 0.95, 'Place in Nursery')
-    find_and_click(img_directory + '/breeding_cave.png', 0.95, 'Reselect Breeding Cave')
+    find_and_click(img_directory + '/breed_heart.png', 0.9, 'Breed Complete')
+    find_and_click(img_directory + '/place_in_nursery.png', 0.9, 'Place in Nursery')
+    find_and_click(img_directory + '/breeding_cave.png', 0.9, 'Reselect Breeding Cave')
   else:
     stdscr.clear()
     stdscr.addstr(0, 0, 'Set Preconditions Case 4', curses.color_pair(3))
     stdscr.refresh()
     # print(colored('Set Preconditions Case 4', 'yellow'))
-    find_and_click(img_directory + '/breeding_cave.png', 0.95, 'Reselect Breeding Cave')
-    find_and_click(img_directory + '/breed_retry_button.png', 0.95, 'Retry Breed Button')
-    find_and_click(img_directory + '/breed_button.png', 0.95, 'Breed Button')
-    find_and_click(img_directory + '/breed_heart.png', 0.95, 'Breed Complete')
-    find_and_click(img_directory + '/place_in_nursery.png', 0.95, 'Place in Nursery')
-    find_and_click(img_directory + '/breeding_cave.png', 0.95, 'Reselect Breeding Cave')
+    find_and_click(img_directory + '/breeding_cave.png', 0.9, 'Reselect Breeding Cave')
+    find_and_click(img_directory + '/breed_retry_button.png', 0.9, 'Retry Breed Button')
+    find_and_click(img_directory + '/breed_button.png', 0.9, 'Breed Button')
+    find_and_click(img_directory + '/breed_heart.png', 0.9, 'Breed Complete')
+    find_and_click(img_directory + '/place_in_nursery.png', 0.9, 'Place in Nursery')
+    find_and_click(img_directory + '/breeding_cave.png', 0.9, 'Reselect Breeding Cave')
 
 # In the event of a game crash, relaunch the game and restart plant farm
 def reset_game():
   global stdscr
   restart_time = 5
   # Crash due to other device connecting (give more time)
-  if pyautogui.locateOnScreen(img_directory + '/continue.png') is not None:
+  if pyautogui.locateOnScreen(img_directory + '/continue.png', confidence=0.9) is not None:
     restart_time = 300
   # Crash otherwise (shorter time till restart)
   for x in range(restart_time, 0, -1):
@@ -180,7 +180,7 @@ def reset_game():
       stdscr.addstr('Exiting Pop Ups', curses.color_pair(5))
       stdscr.refresh()
       pyautogui.press('esc')
-      time.sleep(0.7)
+      time.sleep(2)
   
 
   stdscr.clear()
@@ -249,7 +249,7 @@ def find_and_click(image_path, conf, step):
         stdscr.clrtoeol()
         stdscr.addstr(8, 0, 'Avoided critical miss in iteration %d' % iteration, curses.color_pair(2))
         stdscr.refresh()
-        find_and_click(img_directory + '/nursery.png', 0.93, 'Nursery')
+        find_and_click(img_directory + '/nursery.png', 0.9, 'Nursery')
         find_and_click(img_directory + '/hatch_plant_egg.png', 0.9, 'Hatch Plant Egg')
 
       if (step == 'Sell Button' and fail_count > 2):
@@ -258,9 +258,9 @@ def find_and_click(image_path, conf, step):
         stdscr.clrtoeol()
         stdscr.addstr(8, 0, 'Avoided critical miss in iteration %d' % iteration, curses.color_pair(2))
         stdscr.refresh()
-        find_and_click(img_directory + '/nursery.png', 0.93, 'Nursery')
+        find_and_click(img_directory + '/nursery.png', 0.9, 'Nursery')
         find_and_click(img_directory + '/hatch_plant_egg.png', 0.9, 'Hatch Plant Egg')
-        find_and_click(img_directory + '/sell_button.png', 0.98, 'Sell Button')
+        find_and_click(img_directory + '/sell_button.png', 0.95, 'Sell Button')
         success = True
 
       fail_count += 1
@@ -308,31 +308,31 @@ def plant_farm():
     iteration_start = time.time()
     # print(colored('Beginning iteration %d' % iteration, 'cyan'))
 		# Step 1: If retry breed button is present, click it
-    find_and_click(img_directory + '/breed_retry_button.png', 0.95, 'Retry Breed Button')
+    find_and_click(img_directory + '/breed_retry_button.png', 0.9, 'Retry Breed Button')
     
 		# Step 2: If breed button is present, click it
-    find_and_click(img_directory + '/breed_button.png', 0.95, 'Breed Button')
+    find_and_click(img_directory + '/breed_button.png', 0.9, 'Breed Button')
 
 		# Step 3: Use image hashing to select the nursery
-    find_and_click(img_directory + '/nursery.png', 0.93, 'Nursery')
+    find_and_click(img_directory + '/nursery.png', 0.9, 'Nursery')
 
 		# Step 4: If plant egg on left is present with NO TIMER, click it
     find_and_click(img_directory + '/hatch_plant_egg.png', 0.9, 'Hatch Plant Egg')
 
 		# Step 5: If sell button is present, click it
-    find_and_click(img_directory + '/sell_button.png', 0.95, 'Sell Button')
+    find_and_click(img_directory + '/sell_button.png', 0.9, 'Sell Button')
     
 		# Step 6: If yes button is present, click it
-    find_and_click(img_directory + '/yes_button.png', 0.95, 'Yes Button')
+    find_and_click(img_directory + '/yes_button.png', 0.9, 'Yes Button')
 
 		# Step 7: If heart is over breeding cave, click it
     find_and_click(img_directory + '/breed_heart.png', 0.9, 'Breed Complete')
 
 		# Step 8: If "Place in Nursery" button is present, click it
-    find_and_click(img_directory + '/place_in_nursery.png', 0.95, 'Place in Nursery')
+    find_and_click(img_directory + '/place_in_nursery.png', 0.9, 'Place in Nursery')
 
 		# Step 9: Use image hashing to reselect the breeding cave
-    find_and_click(img_directory + '/breeding_cave.png', 0.95, 'Reselect Breeding Cave')
+    find_and_click(img_directory + '/breeding_cave.png', 0.9, 'Reselect Breeding Cave')
 
     iteration_end = time.time()
     total_runtime = time.time() - start
@@ -382,13 +382,10 @@ def start_farm():
     print(colored('Plant Farm Terminated', 'magenta'))
     
 
-farm_thread = threading.Thread(target=start_farm)
-farm_thread.start()
+# farm_thread = threading.Thread(target=start_farm)
+# farm_thread.start()
 
-keyboard.add_hotkey('space', lambda: exec("global execute; execute = False"))
-farm_thread.join()
+start_farm()
+# keyboard.add_hotkey('space', lambda: exec("global execute; execute = False"))
+# farm_thread.join()
 curses.endwin()
-if execute == False:
-  print(colored('Earned a total of %d EC (%d EC on double days) in %s' % (iteration * 3, iteration * 6, time_str), 'cyan'))
-  print(colored('Plant Farm Terminated', 'magenta'))
-
