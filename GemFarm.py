@@ -5,7 +5,7 @@
 # Instance 6: DVFarm19
 # Instance 7: DVFarm1
 # Instance 8: DVFarm1
-# Instance 9: DVFarm1
+# Instance 9: DVFarm4
 # Instance 10: DVFarm1
 # Instance 11: DVFarm1
 # Instance 12: DVFarm1
@@ -38,6 +38,7 @@ stdscr.keypad(True)
 stdscr.nodelay(True)
 
 img_directory = './GemImgs'
+reset_count = 0
 
 def iterate_through_emulator_instance(instance):
   img_path = img_directory + "/cluster" + str(instance)
@@ -77,16 +78,16 @@ def iterate_through_game_instance(game, instance):
         
   # Exit pop-ups
 
-  for i in range(3):
-    if pyautogui.locateOnScreen(img_path + '/goals_grey.png', confidence=0.9999) is not None:
-      stdscr.clear()
-      stdscr.addstr('Exiting Pop Ups', curses.color_pair(5))
-      stdscr.refresh()
-      pyautogui.press('esc')
-      time.sleep(2)
+  while pyautogui.locateOnScreen(img_path + '/goals_grey.png', confidence=0.9999) is not None:
+    stdscr.clear()
+    stdscr.addstr('Exiting Pop Ups', curses.color_pair(5))
+    stdscr.refresh()
+    pyautogui.press('esc')
+    time.sleep(2)
 
   find_and_click(img_directory + "/social.png", 0.9, "Social", game, instance)
   find_and_click(img_directory + "/friends.png", 0.9, "Friends", game, instance)
+  time.sleep(1.3)
   find_and_click(img_directory + "/gift.png", 0.96, "Gift", game, instance)
   find_and_click(img_directory + "/social_exit.png", 0.9, "Social Exit", game, instance)
   find_and_click(img_directory + "/options.png", 0.9, "Options", game, instance)
@@ -132,6 +133,8 @@ def find_and_click(image_path, conf, step, game, instance):
       # change to throw exception, then catch it to skip the affected instance
       raise Exception("Too many failures in instance %d game %d" % (instance, game))
 
+
+
     loc = pyautogui.locateOnScreen(image_path, confidence = conf)
 
     if loc is not None:
@@ -153,18 +156,20 @@ def find_and_click(image_path, conf, step, game, instance):
         # print(colored('Avoided critical miss in iteration %d' % iteration, 'green'))
         stdscr.move(8, 0)
         stdscr.clrtoeol()
-        stdscr.addstr(8, 0, 'Avoided critical miss in game %d' % game, curses.color_pair(2))
+        stdscr.addstr(8, 0, 'Avoided critical miss for Options in game %d' % game, curses.color_pair(2))
         stdscr.refresh()
         find_and_click(img_directory + '/options.png', 0.9, 'Options', game, instance)
         find_and_click(img_directory + '/switch_park.png', 0.9, 'Switch Park', game, instance)
+        success = True
 
       if (step == "Friends" and fail_count > 2):
         stdscr.move(8, 0)
         stdscr.clrtoeol()
-        stdscr.addstr(8, 0, 'Avoided critical miss in game %d' % game, curses.color_pair(2))
+        stdscr.addstr(8, 0, 'Avoided critical miss for Social in game %d' % game, curses.color_pair(2))
         stdscr.refresh()
         find_and_click(img_directory + '/social.png', 0.9, 'Social', game, instance)
         find_and_click(img_directory + '/friends.png', 0.9, 'Friends', game, instance)
+        success = True
 
       fail_count += 1
       if (step == 'Gift'):
@@ -183,7 +188,47 @@ for x in range(3, 0, -1):
 
 stdscr.clear()
 
-for i in range(9, 15):
-  iterate_through_emulator_instance(i)
+# for i in range(3, 15):
+#   try:
+#     iterate_through_emulator_instance(i)
+#   except:
+#     reset_count += 1
 
-# iterate_through_emulator_instance(8)
+#      # attempt to restart instance that produced the failure
+    
+#     img_path = img_directory + "/cluster" + str(i)
+#     loc = pyautogui.locateOnScreen(img_path + "/start_instance.png", confidence = 0.999)
+
+#     if (loc is not None):
+#       iterate_through_emulator_instance(i)
+#     else:
+#       find_and_click(img_directory + '/close_instance.png', 0.95, "Close Instance", 20, i)
+#       find_and_click(img_directory + '/confirm_close_instance.png', 0.95, "Confirm Close Instance", 20, i)
+#       time.sleep(5)
+#       iterate_through_emulator_instance(i)
+
+# print("Finished with %d resets" % reset_count)
+
+
+for i in range(3, 15):
+  while True:  # Retry loop
+    try:
+      iterate_through_emulator_instance(i)
+      break  # Break out of the loop if no exception is raised
+    except Exception as e:
+      reset_count += 1
+      print("Exception occurred in instance %d: %s" % (i, str(e)))
+      # Restart the emulator instance
+      img_path = img_directory + "/cluster" + str(i)
+      loc = pyautogui.locateOnScreen(img_path + "/start_instance.png", confidence=0.999)
+      if loc is not None:
+        print("Restarting instance %d..." % i)
+        continue  # Retry the iteration
+      else:
+        find_and_click(img_directory + '/close_instance.png', 0.95, "Close Instance", 20, i)
+        find_and_click(img_directory + '/confirm_close_instance.png', 0.95, "Confirm Close Instance", 20, i)
+        time.sleep(5)
+        print("Restarting instance %d..." % i)
+        continue  # Retry the iteration
+
+print("Finished with %d resets" % reset_count)

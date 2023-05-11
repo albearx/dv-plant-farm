@@ -174,13 +174,13 @@ def reset_game():
   time.sleep(2)
 
   # If there is a pop-up upon loading into the game
-  for i in range(3):
-    if pyautogui.locateOnScreen(img_directory + '/goals_grey.png', confidence=0.9999) is not None:
-      stdscr.clear()
-      stdscr.addstr('Exiting Pop Ups', curses.color_pair(5))
-      stdscr.refresh()
-      pyautogui.press('esc')
-      time.sleep(2)
+  # for i in range(3):
+  while pyautogui.locateOnScreen(img_directory + '/goals_grey.png', confidence=0.9999) is not None:
+    stdscr.clear()
+    stdscr.addstr('Exiting Pop Ups', curses.color_pair(5))
+    stdscr.refresh()
+    pyautogui.press('esc')
+    time.sleep(2)
   
 
   stdscr.clear()
@@ -251,6 +251,7 @@ def find_and_click(image_path, conf, step):
         stdscr.refresh()
         find_and_click(img_directory + '/nursery.png', 0.9, 'Nursery')
         find_and_click(img_directory + '/hatch_plant_egg.png', 0.9, 'Hatch Plant Egg')
+        success = True
 
       if (step == 'Sell Button' and fail_count > 2):
         # print(colored('Avoided critical miss in iteration %d' % iteration, 'green'))
@@ -382,10 +383,6 @@ def start_farm():
     print(colored('Plant Farm Terminated', 'magenta'))
     
 
-# farm_thread = threading.Thread(target=start_farm)
-# farm_thread.start()
-
 start_farm()
-# keyboard.add_hotkey('space', lambda: exec("global execute; execute = False"))
-# farm_thread.join()
+
 curses.endwin()
