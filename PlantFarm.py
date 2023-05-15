@@ -45,8 +45,8 @@ img_directory = './WinLaptopImgs'
 iteration = 1
 time_str = '0s'
 total_runtime = 0
-start = time.time()
-reset_count = 0
+start = None
+reset_count = -1
 
 # Assumes the view of park includes both the nursery and the cave
 # Sets preconditions for plant_farm()
@@ -133,11 +133,11 @@ def reset_game():
   restart_time = 5
   # Crash due to other device connecting (give more time)
   if pyautogui.locateOnScreen(img_directory + '/continue.png', confidence=0.9) is not None:
-    restart_time = 5
+    restart_time = 300
   # Crash otherwise (shorter time till restart)
   for x in range(restart_time, 0, -1):
     stdscr.clear()
-    stdscr.addstr('Restarting plant farm in %d seconds...' % x, curses.color_pair(5))
+    stdscr.addstr('(Re)starting plant farm in %d seconds...' % x, curses.color_pair(5))
     stdscr.refresh()
     time.sleep(1)
 
@@ -166,9 +166,13 @@ def reset_game():
   pyautogui.click(pyautogui.center(pyautogui.locateOnScreen(img_directory + '/dv_app.png')))
 
   # log.write('Waiting for loading screen...\n')
+  load_count = 0
   while (pyautogui.locateOnScreen(img_directory + '/goals_grey.png', confidence=0.95) is None and
           pyautogui.locateOnScreen(img_directory + '/goals.png', confidence=0.95) is None):
+    load_count += 1
     time.sleep(3)
+    if (load_count >= 60):
+      reset_game()
   time.sleep(2)
 
   # log.write('Loading screen completion detected.\n')
@@ -319,7 +323,9 @@ def plant_farm():
   global start
   global reset_count
   global execute
-
+  if (start is None):
+    start = time.time()
+  
   stdscr.clear()
   stdscr.addstr(0, 0, 'Total EC: - (- on double days)', curses.color_pair(4))
   stdscr.addstr(1, 0, '- iterations completed in -', curses.color_pair(4))
@@ -392,8 +398,15 @@ def start_farm():
     stdscr.refresh()
     time.sleep(1)
 
+  stdscr.clear()
+  stdscr.addstr('Initializing plant farm...')
+  stdscr.refresh()
+  pyautogui.click(pyautogui.center(pyautogui.locateOnScreen(img_directory + '/start_instance.png', confidence=0.99)))
+  while (pyautogui.locateOnScreen(img_directory + '/dv_app.png', confidence=0.95) is None):
+    time.sleep(2)
+
   try:
-    set_preconditions()
+    reset_game()
     stdscr.clear()
     stdscr.addstr('Preconditions set, beginning plant farm', curses.color_pair(3))
     stdscr.refresh()

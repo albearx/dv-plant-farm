@@ -82,9 +82,16 @@ def iterate_through_game_instance(game, instance):
   img_path = img_directory + "/cluster" + str(instance)
   # Wait until loading bar is finished
   log.write('Waiting for loading screen in instance %d, game %d\n' % (instance, game))
+
+  load_count = 0
   while (pyautogui.locateOnScreen(img_path + '/goals_grey.png', confidence=0.95) is None and
           pyautogui.locateOnScreen(img_path + '/goals.png', confidence=0.95) is None):
+    load_count += 1
     time.sleep(3)
+    if (load_count >= 60):
+      log.write("Loading bar not progressing in instance %d, game %d, throwing exception\n" % (instance, game))
+      raise Exception("Loading bar not progressing in instance %d, game %d" % (instance, game))
+
   time.sleep(2)
         
   # Exit pop-ups
@@ -153,7 +160,7 @@ def find_and_click(image_path, conf, step, game, instance):
     if (fail_count >= fail_limit):
       # change to throw exception, then catch it to skip the affected instance
       log.write('[!!!] Too many failures in instance %d, game %d\n' % (instance, game))
-      raise Exception("Too many failures in instance %d, game %d" % (instance, game))
+      raise Exception("Too many failures in instance %d, game %d, throwing exception" % (instance, game))
 
 
 
@@ -227,15 +234,18 @@ for i in range(3, 15):
       iterate_through_emulator_instance(i)
       break  # Break out of the loop if no exception is raised
     except Exception as e:
+      log.write(str(e) + "\n")
       reset_count += 1
       print("Exception occurred in instance %d: %s" % (i, str(e)))
       # Restart the emulator instance
       img_path = img_directory + "/cluster" + str(i)
       loc = pyautogui.locateOnScreen(img_path + "/start_instance.png", confidence=0.999)
       if loc is not None:
+        log.write('Instance crashed, restarting instance\n')
         print("Restarting instance %d..." % i)
         continue  # Retry the iteration
       else:
+        log.write('Instance reached unforeseen scenario but did not crash, restarting instance\n')
         find_and_click(img_directory + '/close_instance.png', 0.95, "Close Instance", 20, i)
         find_and_click(img_directory + '/confirm_close_instance.png', 0.95, "Confirm Close Instance", 20, i)
         time.sleep(5)
@@ -243,3 +253,4 @@ for i in range(3, 15):
         continue  # Retry the iteration
 
 print("Finished with %d resets" % reset_count)
+log.close()
