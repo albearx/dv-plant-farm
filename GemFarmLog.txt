@@ -1,0 +1,2954 @@
+Opening instance 3 in multi-instance manager
+Waiting for emulator instance to load...
+Clicking on DV app...
+Working through instance 3, game 0
+Waiting for loading screen in instance 3, game 0
+Exiting pop up in instance 3, game 0
+Social succeeded in instance 3, game 0
+Friends succeeded in instance 3, game 0
+Gift failed in instance 3, game 0
+Social Exit succeeded in instance 3, game 0
+Options succeeded in instance 3, game 0
+Switch Park succeeded in instance 3, game 0
+Scrolling to next game...
+Working through instance 3, game 1
+Waiting for loading screen in instance 3, game 1
+Exiting pop up in instance 3, game 1
+Social succeeded in instance 3, game 1
+Friends succeeded in instance 3, game 1
+Gift failed in instance 3, game 1
+Social Exit succeeded in instance 3, game 1
+Options succeeded in instance 3, game 1
+Switch Park succeeded in instance 3, game 1
+Scrolling to next game...
+Working through instance 3, game 2
+Waiting for loading screen in instance 3, game 2
+Exiting pop up in instance 3, game 2
+Social succeeded in instance 3, game 2
+Friends succeeded in instance 3, game 2
+Gift failed in instance 3, game 2
+Social Exit succeeded in instance 3, game 2
+Options succeeded in instance 3, game 2
+Switch Park succeeded in instance 3, game 2
+Scrolling to next game...
+Working through instance 3, game 3
+Waiting for loading screen in instance 3, game 3
+Exiting pop up in instance 3, game 3
+Social succeeded in instance 3, game 3
+Friends succeeded in instance 3, game 3
+Gift succeeded in instance 3, game 3
+Social Exit succeeded in instance 3, game 3
+Options succeeded in instance 3, game 3
+Switch Park succeeded in instance 3, game 3
+Scrolling to next game...
+Working through instance 3, game 4
+Waiting for loading screen in instance 3, game 4
+Exiting pop up in instance 3, game 4
+Exiting pop up in instance 3, game 4
+Social succeeded in instance 3, game 4
+Friends succeeded in instance 3, game 4
+Gift succeeded in instance 3, game 4
+Social Exit succeeded in instance 3, game 4
+Options succeeded in instance 3, game 4
+Switch Park succeeded in instance 3, game 4
+Scrolling to next game...
+Working through instance 3, game 5
+Waiting for loading screen in instance 3, game 5
+Exiting pop up in instance 3, game 5
+Exiting pop up in instance 3, game 5
+Social succeeded in instance 3, game 5
+Friends succeeded in instance 3, game 5
+Gift succeeded in instance 3, game 5
+Social Exit succeeded in instance 3, game 5
+Options succeeded in instance 3, game 5
+Switch Park succeeded in instance 3, game 5
+Scrolling to next game...
+Working through instance 3, game 6
+Waiting for loading screen in instance 3, game 6
+Exiting pop up in instance 3, game 6
+Exiting pop up in instance 3, game 6
+Social succeeded in instance 3, game 6
+Friends succeeded in instance 3, game 6
+Gift succeeded in instance 3, game 6
+Social Exit succeeded in instance 3, game 6
+Options succeeded in instance 3, game 6
+Switch Park succeeded in instance 3, game 6
+Scrolling to next game...
+Working through instance 3, game 7
+Waiting for loading screen in instance 3, game 7
+Exiting pop up in instance 3, game 7
+Exiting pop up in instance 3, game 7
+Social succeeded in instance 3, game 7
+Friends succeeded in instance 3, game 7
+Gift succeeded in instance 3, game 7
+Social Exit succeeded in instance 3, game 7
+Options succeeded in instance 3, game 7
+Switch Park succeeded in instance 3, game 7
+Scrolling to next game...
+Working through instance 3, game 8
+Waiting for loading screen in instance 3, game 8
+Exiting pop up in instance 3, game 8
+Exiting pop up in instance 3, game 8
+Social succeeded in instance 3, game 8
+Friends succeeded in instance 3, game 8
+Gift succeeded in instance 3, game 8
+Social Exit succeeded in instance 3, game 8
+Options succeeded in instance 3, game 8
+Switch Park succeeded in instance 3, game 8
+Scrolling to next game...
+Working through instance 3, game 9
+Waiting for loading screen in instance 3, game 9
+Exiting pop up in instance 3, game 9
+Exiting pop up in instance 3, game 9
+Social succeeded in instance 3, game 9
+Friends succeeded in instance 3, game 9
+Gift succeeded in instance 3, game 9
+Social Exit succeeded in instance 3, game 9
+Options failed in instance 3, game 9
+Options succeeded in instance 3, game 9
+Switch Park succeeded in instance 3, game 9
+Scrolling to next game...
+Working through instance 3, game 10
+Waiting for loading screen in instance 3, game 10
+Exiting pop up in instance 3, game 10
+Exiting pop up in instance 3, game 10
+Social succeeded in instance 3, game 10
+Friends succeeded in instance 3, game 10
+Gift succeeded in instance 3, game 10
+Social Exit succeeded in instance 3, game 10
+Options succeeded in instance 3, game 10
+Switch Park succeeded in instance 3, game 10
+Scrolling to next game...
+Working through instance 3, game 11
+Waiting for loading screen in instance 3, game 11
+Exiting pop up in instance 3, game 11
+Exiting pop up in instance 3, game 11
+Social succeeded in instance 3, game 11
+Friends succeeded in instance 3, game 11
+Gift succeeded in instance 3, game 11
+Social Exit succeeded in instance 3, game 11
+Options succeeded in instance 3, game 11
+Switch Park succeeded in instance 3, game 11
+Scrolling to next game...
+Working through instance 3, game 12
+Waiting for loading screen in instance 3, game 12
+Exiting pop up in instance 3, game 12
+Exiting pop up in instance 3, game 12
+Social succeeded in instance 3, game 12
+Friends succeeded in instance 3, game 12
+Gift succeeded in instance 3, game 12
+Social Exit succeeded in instance 3, game 12
+Options succeeded in instance 3, game 12
+Switch Park succeeded in instance 3, game 12
+Scrolling to next game...
+Working through instance 3, game 13
+Waiting for loading screen in instance 3, game 13
+Exiting pop up in instance 3, game 13
+Exiting pop up in instance 3, game 13
+Social succeeded in instance 3, game 13
+Friends succeeded in instance 3, game 13
+Gift succeeded in instance 3, game 13
+Social Exit succeeded in instance 3, game 13
+Options succeeded in instance 3, game 13
+Switch Park succeeded in instance 3, game 13
+Scrolling to next game...
+Working through instance 3, game 14
+Waiting for loading screen in instance 3, game 14
+Exiting pop up in instance 3, game 14
+Exiting pop up in instance 3, game 14
+Social succeeded in instance 3, game 14
+Friends succeeded in instance 3, game 14
+Gift succeeded in instance 3, game 14
+Social Exit succeeded in instance 3, game 14
+Options succeeded in instance 3, game 14
+Switch Park succeeded in instance 3, game 14
+Scrolling to next game...
+Working through instance 3, game 15
+Waiting for loading screen in instance 3, game 15
+Exiting pop up in instance 3, game 15
+Exiting pop up in instance 3, game 15
+Social succeeded in instance 3, game 15
+Friends succeeded in instance 3, game 15
+Gift succeeded in instance 3, game 15
+Social Exit succeeded in instance 3, game 15
+Options succeeded in instance 3, game 15
+Switch Park succeeded in instance 3, game 15
+Scrolling to next game...
+Working through instance 3, game 16
+Waiting for loading screen in instance 3, game 16
+Exiting pop up in instance 3, game 16
+Exiting pop up in instance 3, game 16
+Social succeeded in instance 3, game 16
+Friends succeeded in instance 3, game 16
+Gift succeeded in instance 3, game 16
+Social Exit succeeded in instance 3, game 16
+Options succeeded in instance 3, game 16
+Switch Park succeeded in instance 3, game 16
+Scrolling to next game...
+Working through instance 3, game 17
+Waiting for loading screen in instance 3, game 17
+Exiting pop up in instance 3, game 17
+Exiting pop up in instance 3, game 17
+Social succeeded in instance 3, game 17
+Friends succeeded in instance 3, game 17
+Gift succeeded in instance 3, game 17
+Social Exit succeeded in instance 3, game 17
+Options succeeded in instance 3, game 17
+Switch Park succeeded in instance 3, game 17
+Scrolling to next game...
+Working through instance 3, game 18
+Waiting for loading screen in instance 3, game 18
+Exiting pop up in instance 3, game 18
+Exiting pop up in instance 3, game 18
+Social succeeded in instance 3, game 18
+Friends succeeded in instance 3, game 18
+Gift succeeded in instance 3, game 18
+Social Exit succeeded in instance 3, game 18
+Options succeeded in instance 3, game 18
+Switch Park succeeded in instance 3, game 18
+Scrolling to next game...
+Working through instance 3, game 19
+Waiting for loading screen in instance 3, game 19
+Exiting pop up in instance 3, game 19
+Exiting pop up in instance 3, game 19
+Exiting pop up in instance 3, game 19
+Social succeeded in instance 3, game 19
+Friends succeeded in instance 3, game 19
+Gift succeeded in instance 3, game 19
+Social Exit succeeded in instance 3, game 19
+Options succeeded in instance 3, game 19
+Switch Park succeeded in instance 3, game 19
+Scrolling to next game...
+Working through instance 3, game 20
+Waiting for loading screen in instance 3, game 20
+Exiting pop up in instance 3, game 20
+Exiting pop up in instance 3, game 20
+Social succeeded in instance 3, game 20
+Friends succeeded in instance 3, game 20
+Gift succeeded in instance 3, game 20
+Social Exit succeeded in instance 3, game 20
+Options succeeded in instance 3, game 20
+Switch Park succeeded in instance 3, game 20
+Scrolling to next game...
+Close Instance succeeded in instance 3, game 20
+Confirm Close Instance succeeded in instance 3, game 20
+Opening instance 4 in multi-instance manager
+Waiting for emulator instance to load...
+Clicking on DV app...
+Working through instance 4, game 0
+Waiting for loading screen in instance 4, game 0
+Exiting pop up in instance 4, game 0
+Exiting pop up in instance 4, game 0
+Social succeeded in instance 4, game 0
+Friends failed in instance 4, game 0
+Friends succeeded in instance 4, game 0
+Gift succeeded in instance 4, game 0
+Social Exit succeeded in instance 4, game 0
+Options succeeded in instance 4, game 0
+Switch Park succeeded in instance 4, game 0
+Scrolling to next game...
+Working through instance 4, game 1
+Waiting for loading screen in instance 4, game 1
+Exiting pop up in instance 4, game 1
+Exiting pop up in instance 4, game 1
+Social succeeded in instance 4, game 1
+Friends succeeded in instance 4, game 1
+Gift succeeded in instance 4, game 1
+Social Exit succeeded in instance 4, game 1
+Options succeeded in instance 4, game 1
+Switch Park succeeded in instance 4, game 1
+Scrolling to next game...
+Working through instance 4, game 2
+Waiting for loading screen in instance 4, game 2
+Exiting pop up in instance 4, game 2
+Exiting pop up in instance 4, game 2
+Social succeeded in instance 4, game 2
+Friends succeeded in instance 4, game 2
+Gift succeeded in instance 4, game 2
+Social Exit succeeded in instance 4, game 2
+Options succeeded in instance 4, game 2
+Switch Park succeeded in instance 4, game 2
+Scrolling to next game...
+Working through instance 4, game 3
+Waiting for loading screen in instance 4, game 3
+Exiting pop up in instance 4, game 3
+Exiting pop up in instance 4, game 3
+Social succeeded in instance 4, game 3
+Friends succeeded in instance 4, game 3
+Gift succeeded in instance 4, game 3
+Social Exit succeeded in instance 4, game 3
+Options succeeded in instance 4, game 3
+Switch Park succeeded in instance 4, game 3
+Scrolling to next game...
+Working through instance 4, game 4
+Waiting for loading screen in instance 4, game 4
+Exiting pop up in instance 4, game 4
+Exiting pop up in instance 4, game 4
+Social succeeded in instance 4, game 4
+Friends succeeded in instance 4, game 4
+Gift succeeded in instance 4, game 4
+Social Exit succeeded in instance 4, game 4
+Options succeeded in instance 4, game 4
+Switch Park succeeded in instance 4, game 4
+Scrolling to next game...
+Working through instance 4, game 5
+Waiting for loading screen in instance 4, game 5
+Exiting pop up in instance 4, game 5
+Exiting pop up in instance 4, game 5
+Social succeeded in instance 4, game 5
+Friends succeeded in instance 4, game 5
+Gift succeeded in instance 4, game 5
+Social Exit succeeded in instance 4, game 5
+Options succeeded in instance 4, game 5
+Switch Park succeeded in instance 4, game 5
+Scrolling to next game...
+Working through instance 4, game 6
+Waiting for loading screen in instance 4, game 6
+Exiting pop up in instance 4, game 6
+Exiting pop up in instance 4, game 6
+Social succeeded in instance 4, game 6
+Friends succeeded in instance 4, game 6
+Gift succeeded in instance 4, game 6
+Social Exit succeeded in instance 4, game 6
+Options succeeded in instance 4, game 6
+Switch Park succeeded in instance 4, game 6
+Scrolling to next game...
+Working through instance 4, game 7
+Waiting for loading screen in instance 4, game 7
+Exiting pop up in instance 4, game 7
+Exiting pop up in instance 4, game 7
+Social succeeded in instance 4, game 7
+Friends succeeded in instance 4, game 7
+Gift succeeded in instance 4, game 7
+Social Exit succeeded in instance 4, game 7
+Options succeeded in instance 4, game 7
+Switch Park succeeded in instance 4, game 7
+Scrolling to next game...
+Working through instance 4, game 8
+Waiting for loading screen in instance 4, game 8
+Exiting pop up in instance 4, game 8
+Exiting pop up in instance 4, game 8
+Exiting pop up in instance 4, game 8
+Social succeeded in instance 4, game 8
+Friends succeeded in instance 4, game 8
+Gift succeeded in instance 4, game 8
+Social Exit succeeded in instance 4, game 8
+Options succeeded in instance 4, game 8
+Switch Park succeeded in instance 4, game 8
+Scrolling to next game...
+Working through instance 4, game 9
+Waiting for loading screen in instance 4, game 9
+Exiting pop up in instance 4, game 9
+Exiting pop up in instance 4, game 9
+Social succeeded in instance 4, game 9
+Friends succeeded in instance 4, game 9
+Gift succeeded in instance 4, game 9
+Social Exit succeeded in instance 4, game 9
+Options succeeded in instance 4, game 9
+Switch Park succeeded in instance 4, game 9
+Scrolling to next game...
+Working through instance 4, game 10
+Waiting for loading screen in instance 4, game 10
+Exiting pop up in instance 4, game 10
+Exiting pop up in instance 4, game 10
+Social succeeded in instance 4, game 10
+Friends succeeded in instance 4, game 10
+Gift succeeded in instance 4, game 10
+Social Exit succeeded in instance 4, game 10
+Options succeeded in instance 4, game 10
+Switch Park succeeded in instance 4, game 10
+Scrolling to next game...
+Working through instance 4, game 11
+Waiting for loading screen in instance 4, game 11
+Exiting pop up in instance 4, game 11
+Exiting pop up in instance 4, game 11
+Exiting pop up in instance 4, game 11
+Social succeeded in instance 4, game 11
+Friends succeeded in instance 4, game 11
+Gift succeeded in instance 4, game 11
+Social Exit succeeded in instance 4, game 11
+Options succeeded in instance 4, game 11
+Switch Park succeeded in instance 4, game 11
+Scrolling to next game...
+Working through instance 4, game 12
+Waiting for loading screen in instance 4, game 12
+Exiting pop up in instance 4, game 12
+Exiting pop up in instance 4, game 12
+Exiting pop up in instance 4, game 12
+Social succeeded in instance 4, game 12
+Friends succeeded in instance 4, game 12
+Gift succeeded in instance 4, game 12
+Social Exit succeeded in instance 4, game 12
+Options succeeded in instance 4, game 12
+Switch Park succeeded in instance 4, game 12
+Scrolling to next game...
+Working through instance 4, game 13
+Waiting for loading screen in instance 4, game 13
+Exiting pop up in instance 4, game 13
+Exiting pop up in instance 4, game 13
+Social succeeded in instance 4, game 13
+Friends succeeded in instance 4, game 13
+Gift succeeded in instance 4, game 13
+Social Exit succeeded in instance 4, game 13
+Options succeeded in instance 4, game 13
+Switch Park succeeded in instance 4, game 13
+Scrolling to next game...
+Working through instance 4, game 14
+Waiting for loading screen in instance 4, game 14
+Exiting pop up in instance 4, game 14
+Exiting pop up in instance 4, game 14
+Social succeeded in instance 4, game 14
+Friends succeeded in instance 4, game 14
+Gift succeeded in instance 4, game 14
+Social Exit succeeded in instance 4, game 14
+Options succeeded in instance 4, game 14
+Switch Park succeeded in instance 4, game 14
+Scrolling to next game...
+Working through instance 4, game 15
+Waiting for loading screen in instance 4, game 15
+Exiting pop up in instance 4, game 15
+Exiting pop up in instance 4, game 15
+Social succeeded in instance 4, game 15
+Friends succeeded in instance 4, game 15
+Gift succeeded in instance 4, game 15
+Social Exit succeeded in instance 4, game 15
+Options succeeded in instance 4, game 15
+Switch Park succeeded in instance 4, game 15
+Scrolling to next game...
+Working through instance 4, game 16
+Waiting for loading screen in instance 4, game 16
+Exiting pop up in instance 4, game 16
+Exiting pop up in instance 4, game 16
+Social succeeded in instance 4, game 16
+Friends succeeded in instance 4, game 16
+Gift succeeded in instance 4, game 16
+Social Exit succeeded in instance 4, game 16
+Options succeeded in instance 4, game 16
+Switch Park succeeded in instance 4, game 16
+Scrolling to next game...
+Working through instance 4, game 17
+Waiting for loading screen in instance 4, game 17
+Exiting pop up in instance 4, game 17
+Exiting pop up in instance 4, game 17
+Social succeeded in instance 4, game 17
+Friends succeeded in instance 4, game 17
+Gift succeeded in instance 4, game 17
+Social Exit succeeded in instance 4, game 17
+Options succeeded in instance 4, game 17
+Switch Park succeeded in instance 4, game 17
+Scrolling to next game...
+Working through instance 4, game 18
+Waiting for loading screen in instance 4, game 18
+Exiting pop up in instance 4, game 18
+Exiting pop up in instance 4, game 18
+Social succeeded in instance 4, game 18
+Friends succeeded in instance 4, game 18
+Gift succeeded in instance 4, game 18
+Social Exit succeeded in instance 4, game 18
+Options succeeded in instance 4, game 18
+Switch Park succeeded in instance 4, game 18
+Scrolling to next game...
+Working through instance 4, game 19
+Waiting for loading screen in instance 4, game 19
+Exiting pop up in instance 4, game 19
+Exiting pop up in instance 4, game 19
+Social succeeded in instance 4, game 19
+Friends succeeded in instance 4, game 19
+Gift succeeded in instance 4, game 19
+Social Exit succeeded in instance 4, game 19
+Options succeeded in instance 4, game 19
+Switch Park succeeded in instance 4, game 19
+Scrolling to next game...
+Working through instance 4, game 20
+Waiting for loading screen in instance 4, game 20
+Exiting pop up in instance 4, game 20
+Exiting pop up in instance 4, game 20
+Social succeeded in instance 4, game 20
+Friends succeeded in instance 4, game 20
+Gift succeeded in instance 4, game 20
+Social Exit succeeded in instance 4, game 20
+Options succeeded in instance 4, game 20
+Switch Park succeeded in instance 4, game 20
+Scrolling to next game...
+Close Instance succeeded in instance 4, game 20
+Confirm Close Instance succeeded in instance 4, game 20
+Opening instance 5 in multi-instance manager
+Waiting for emulator instance to load...
+Clicking on DV app...
+Working through instance 5, game 0
+Waiting for loading screen in instance 5, game 0
+Exiting pop up in instance 5, game 0
+Exiting pop up in instance 5, game 0
+Social succeeded in instance 5, game 0
+Friends failed in instance 5, game 0
+Friends failed in instance 5, game 0
+Friends succeeded in instance 5, game 0
+Gift succeeded in instance 5, game 0
+Social Exit succeeded in instance 5, game 0
+Options succeeded in instance 5, game 0
+Switch Park failed in instance 5, game 0
+Switch Park succeeded in instance 5, game 0
+Scrolling to next game...
+Working through instance 5, game 1
+Waiting for loading screen in instance 5, game 1
+Exiting pop up in instance 5, game 1
+Exiting pop up in instance 5, game 1
+Social succeeded in instance 5, game 1
+Friends succeeded in instance 5, game 1
+Gift succeeded in instance 5, game 1
+Social Exit succeeded in instance 5, game 1
+Options succeeded in instance 5, game 1
+Switch Park succeeded in instance 5, game 1
+Scrolling to next game...
+Working through instance 5, game 2
+Waiting for loading screen in instance 5, game 2
+Exiting pop up in instance 5, game 2
+Exiting pop up in instance 5, game 2
+Social succeeded in instance 5, game 2
+Friends succeeded in instance 5, game 2
+Gift succeeded in instance 5, game 2
+Social Exit succeeded in instance 5, game 2
+Options succeeded in instance 5, game 2
+Switch Park succeeded in instance 5, game 2
+Scrolling to next game...
+Working through instance 5, game 3
+Waiting for loading screen in instance 5, game 3
+Exiting pop up in instance 5, game 3
+Exiting pop up in instance 5, game 3
+Social succeeded in instance 5, game 3
+Friends succeeded in instance 5, game 3
+Gift succeeded in instance 5, game 3
+Social Exit succeeded in instance 5, game 3
+Options succeeded in instance 5, game 3
+Switch Park succeeded in instance 5, game 3
+Scrolling to next game...
+Working through instance 5, game 4
+Waiting for loading screen in instance 5, game 4
+Exiting pop up in instance 5, game 4
+Exiting pop up in instance 5, game 4
+Social succeeded in instance 5, game 4
+Friends succeeded in instance 5, game 4
+Gift succeeded in instance 5, game 4
+Social Exit succeeded in instance 5, game 4
+Options succeeded in instance 5, game 4
+Switch Park succeeded in instance 5, game 4
+Scrolling to next game...
+Working through instance 5, game 5
+Waiting for loading screen in instance 5, game 5
+Exiting pop up in instance 5, game 5
+Exiting pop up in instance 5, game 5
+Social succeeded in instance 5, game 5
+Friends succeeded in instance 5, game 5
+Gift succeeded in instance 5, game 5
+Social Exit succeeded in instance 5, game 5
+Options succeeded in instance 5, game 5
+Switch Park succeeded in instance 5, game 5
+Scrolling to next game...
+Working through instance 5, game 6
+Waiting for loading screen in instance 5, game 6
+Exiting pop up in instance 5, game 6
+Exiting pop up in instance 5, game 6
+Social succeeded in instance 5, game 6
+Friends succeeded in instance 5, game 6
+Gift succeeded in instance 5, game 6
+Social Exit succeeded in instance 5, game 6
+Options succeeded in instance 5, game 6
+Switch Park succeeded in instance 5, game 6
+Scrolling to next game...
+Working through instance 5, game 7
+Waiting for loading screen in instance 5, game 7
+Exiting pop up in instance 5, game 7
+Exiting pop up in instance 5, game 7
+Exiting pop up in instance 5, game 7
+Social succeeded in instance 5, game 7
+Friends succeeded in instance 5, game 7
+Gift succeeded in instance 5, game 7
+Social Exit succeeded in instance 5, game 7
+Options succeeded in instance 5, game 7
+Switch Park succeeded in instance 5, game 7
+Scrolling to next game...
+Working through instance 5, game 8
+Waiting for loading screen in instance 5, game 8
+Exiting pop up in instance 5, game 8
+Exiting pop up in instance 5, game 8
+Exiting pop up in instance 5, game 8
+Social succeeded in instance 5, game 8
+Friends succeeded in instance 5, game 8
+Gift succeeded in instance 5, game 8
+Social Exit succeeded in instance 5, game 8
+Options succeeded in instance 5, game 8
+Switch Park succeeded in instance 5, game 8
+Scrolling to next game...
+Working through instance 5, game 9
+Waiting for loading screen in instance 5, game 9
+Exiting pop up in instance 5, game 9
+Exiting pop up in instance 5, game 9
+Social succeeded in instance 5, game 9
+Friends succeeded in instance 5, game 9
+Gift succeeded in instance 5, game 9
+Social Exit succeeded in instance 5, game 9
+Options succeeded in instance 5, game 9
+Switch Park succeeded in instance 5, game 9
+Scrolling to next game...
+Working through instance 5, game 10
+Waiting for loading screen in instance 5, game 10
+Exiting pop up in instance 5, game 10
+Exiting pop up in instance 5, game 10
+Social succeeded in instance 5, game 10
+Friends succeeded in instance 5, game 10
+Gift succeeded in instance 5, game 10
+Social Exit succeeded in instance 5, game 10
+Options succeeded in instance 5, game 10
+Switch Park succeeded in instance 5, game 10
+Scrolling to next game...
+Working through instance 5, game 11
+Waiting for loading screen in instance 5, game 11
+Exiting pop up in instance 5, game 11
+Exiting pop up in instance 5, game 11
+Social succeeded in instance 5, game 11
+Friends succeeded in instance 5, game 11
+Gift succeeded in instance 5, game 11
+Social Exit succeeded in instance 5, game 11
+Options succeeded in instance 5, game 11
+Switch Park succeeded in instance 5, game 11
+Scrolling to next game...
+Working through instance 5, game 12
+Waiting for loading screen in instance 5, game 12
+Exiting pop up in instance 5, game 12
+Exiting pop up in instance 5, game 12
+Social succeeded in instance 5, game 12
+Friends succeeded in instance 5, game 12
+Gift succeeded in instance 5, game 12
+Social Exit succeeded in instance 5, game 12
+Options succeeded in instance 5, game 12
+Switch Park succeeded in instance 5, game 12
+Scrolling to next game...
+Working through instance 5, game 13
+Waiting for loading screen in instance 5, game 13
+Exiting pop up in instance 5, game 13
+Exiting pop up in instance 5, game 13
+Social succeeded in instance 5, game 13
+Friends succeeded in instance 5, game 13
+Gift succeeded in instance 5, game 13
+Social Exit succeeded in instance 5, game 13
+Options succeeded in instance 5, game 13
+Switch Park succeeded in instance 5, game 13
+Scrolling to next game...
+Working through instance 5, game 14
+Waiting for loading screen in instance 5, game 14
+Exiting pop up in instance 5, game 14
+Exiting pop up in instance 5, game 14
+Social succeeded in instance 5, game 14
+Friends succeeded in instance 5, game 14
+Gift failed in instance 5, game 14
+Social Exit succeeded in instance 5, game 14
+Options succeeded in instance 5, game 14
+Switch Park succeeded in instance 5, game 14
+Scrolling to next game...
+Working through instance 5, game 15
+Waiting for loading screen in instance 5, game 15
+Exiting pop up in instance 5, game 15
+Exiting pop up in instance 5, game 15
+Social succeeded in instance 5, game 15
+Friends succeeded in instance 5, game 15
+Gift succeeded in instance 5, game 15
+Social Exit succeeded in instance 5, game 15
+Options succeeded in instance 5, game 15
+Switch Park succeeded in instance 5, game 15
+Scrolling to next game...
+Working through instance 5, game 16
+Waiting for loading screen in instance 5, game 16
+Exiting pop up in instance 5, game 16
+Exiting pop up in instance 5, game 16
+Social succeeded in instance 5, game 16
+Friends succeeded in instance 5, game 16
+Gift succeeded in instance 5, game 16
+Social Exit succeeded in instance 5, game 16
+Options succeeded in instance 5, game 16
+Switch Park succeeded in instance 5, game 16
+Scrolling to next game...
+Working through instance 5, game 17
+Waiting for loading screen in instance 5, game 17
+Exiting pop up in instance 5, game 17
+Exiting pop up in instance 5, game 17
+Social succeeded in instance 5, game 17
+Friends succeeded in instance 5, game 17
+Gift succeeded in instance 5, game 17
+Social Exit succeeded in instance 5, game 17
+Options succeeded in instance 5, game 17
+Switch Park succeeded in instance 5, game 17
+Scrolling to next game...
+Working through instance 5, game 18
+Waiting for loading screen in instance 5, game 18
+Exiting pop up in instance 5, game 18
+Exiting pop up in instance 5, game 18
+Exiting pop up in instance 5, game 18
+Social succeeded in instance 5, game 18
+Friends succeeded in instance 5, game 18
+Gift succeeded in instance 5, game 18
+Social Exit succeeded in instance 5, game 18
+Options succeeded in instance 5, game 18
+Switch Park succeeded in instance 5, game 18
+Scrolling to next game...
+Working through instance 5, game 19
+Waiting for loading screen in instance 5, game 19
+Exiting pop up in instance 5, game 19
+Exiting pop up in instance 5, game 19
+Social succeeded in instance 5, game 19
+Friends succeeded in instance 5, game 19
+Gift succeeded in instance 5, game 19
+Social Exit succeeded in instance 5, game 19
+Options succeeded in instance 5, game 19
+Switch Park succeeded in instance 5, game 19
+Scrolling to next game...
+Working through instance 5, game 20
+Waiting for loading screen in instance 5, game 20
+Exiting pop up in instance 5, game 20
+Exiting pop up in instance 5, game 20
+Social succeeded in instance 5, game 20
+Friends succeeded in instance 5, game 20
+Gift succeeded in instance 5, game 20
+Social Exit succeeded in instance 5, game 20
+Options succeeded in instance 5, game 20
+Switch Park succeeded in instance 5, game 20
+Scrolling to next game...
+Close Instance succeeded in instance 5, game 20
+Confirm Close Instance succeeded in instance 5, game 20
+Opening instance 6 in multi-instance manager
+Waiting for emulator instance to load...
+Clicking on DV app...
+Working through instance 6, game 0
+Waiting for loading screen in instance 6, game 0
+Exiting pop up in instance 6, game 0
+Exiting pop up in instance 6, game 0
+Social succeeded in instance 6, game 0
+Friends succeeded in instance 6, game 0
+Gift succeeded in instance 6, game 0
+Social Exit succeeded in instance 6, game 0
+Options succeeded in instance 6, game 0
+Switch Park succeeded in instance 6, game 0
+Scrolling to next game...
+Working through instance 6, game 1
+Waiting for loading screen in instance 6, game 1
+Exiting pop up in instance 6, game 1
+Exiting pop up in instance 6, game 1
+Social succeeded in instance 6, game 1
+Friends succeeded in instance 6, game 1
+Gift succeeded in instance 6, game 1
+Social Exit succeeded in instance 6, game 1
+Options succeeded in instance 6, game 1
+Switch Park succeeded in instance 6, game 1
+Scrolling to next game...
+Working through instance 6, game 2
+Waiting for loading screen in instance 6, game 2
+Exiting pop up in instance 6, game 2
+Exiting pop up in instance 6, game 2
+Exiting pop up in instance 6, game 2
+Social succeeded in instance 6, game 2
+Friends succeeded in instance 6, game 2
+Gift succeeded in instance 6, game 2
+Social Exit succeeded in instance 6, game 2
+Options succeeded in instance 6, game 2
+Switch Park succeeded in instance 6, game 2
+Scrolling to next game...
+Working through instance 6, game 3
+Waiting for loading screen in instance 6, game 3
+Exiting pop up in instance 6, game 3
+Exiting pop up in instance 6, game 3
+Social succeeded in instance 6, game 3
+Friends succeeded in instance 6, game 3
+Gift succeeded in instance 6, game 3
+Social Exit succeeded in instance 6, game 3
+Options succeeded in instance 6, game 3
+Switch Park succeeded in instance 6, game 3
+Scrolling to next game...
+Working through instance 6, game 4
+Waiting for loading screen in instance 6, game 4
+Exiting pop up in instance 6, game 4
+Exiting pop up in instance 6, game 4
+Social succeeded in instance 6, game 4
+Friends succeeded in instance 6, game 4
+Gift succeeded in instance 6, game 4
+Social Exit succeeded in instance 6, game 4
+Options succeeded in instance 6, game 4
+Switch Park succeeded in instance 6, game 4
+Scrolling to next game...
+Working through instance 6, game 5
+Waiting for loading screen in instance 6, game 5
+Exiting pop up in instance 6, game 5
+Exiting pop up in instance 6, game 5
+Exiting pop up in instance 6, game 5
+Social succeeded in instance 6, game 5
+Friends succeeded in instance 6, game 5
+Gift succeeded in instance 6, game 5
+Social Exit succeeded in instance 6, game 5
+Options succeeded in instance 6, game 5
+Switch Park succeeded in instance 6, game 5
+Scrolling to next game...
+Working through instance 6, game 6
+Waiting for loading screen in instance 6, game 6
+Exiting pop up in instance 6, game 6
+Exiting pop up in instance 6, game 6
+Social succeeded in instance 6, game 6
+Friends succeeded in instance 6, game 6
+Gift succeeded in instance 6, game 6
+Social Exit succeeded in instance 6, game 6
+Options succeeded in instance 6, game 6
+Switch Park succeeded in instance 6, game 6
+Scrolling to next game...
+Working through instance 6, game 7
+Waiting for loading screen in instance 6, game 7
+Exiting pop up in instance 6, game 7
+Exiting pop up in instance 6, game 7
+Exiting pop up in instance 6, game 7
+Social succeeded in instance 6, game 7
+Friends succeeded in instance 6, game 7
+Gift succeeded in instance 6, game 7
+Social Exit succeeded in instance 6, game 7
+Options succeeded in instance 6, game 7
+Switch Park succeeded in instance 6, game 7
+Scrolling to next game...
+Working through instance 6, game 8
+Waiting for loading screen in instance 6, game 8
+Exiting pop up in instance 6, game 8
+Exiting pop up in instance 6, game 8
+Exiting pop up in instance 6, game 8
+Social succeeded in instance 6, game 8
+Friends succeeded in instance 6, game 8
+Gift succeeded in instance 6, game 8
+Social Exit succeeded in instance 6, game 8
+Options succeeded in instance 6, game 8
+Switch Park succeeded in instance 6, game 8
+Scrolling to next game...
+Working through instance 6, game 9
+Waiting for loading screen in instance 6, game 9
+Exiting pop up in instance 6, game 9
+Exiting pop up in instance 6, game 9
+Exiting pop up in instance 6, game 9
+Social succeeded in instance 6, game 9
+Friends succeeded in instance 6, game 9
+Gift succeeded in instance 6, game 9
+Social Exit succeeded in instance 6, game 9
+Options succeeded in instance 6, game 9
+Switch Park succeeded in instance 6, game 9
+Scrolling to next game...
+Working through instance 6, game 10
+Waiting for loading screen in instance 6, game 10
+Exiting pop up in instance 6, game 10
+Exiting pop up in instance 6, game 10
+Exiting pop up in instance 6, game 10
+Social succeeded in instance 6, game 10
+Friends succeeded in instance 6, game 10
+Gift succeeded in instance 6, game 10
+Social Exit succeeded in instance 6, game 10
+Options succeeded in instance 6, game 10
+Switch Park succeeded in instance 6, game 10
+Scrolling to next game...
+Working through instance 6, game 11
+Waiting for loading screen in instance 6, game 11
+Exiting pop up in instance 6, game 11
+Exiting pop up in instance 6, game 11
+Exiting pop up in instance 6, game 11
+Social succeeded in instance 6, game 11
+Friends succeeded in instance 6, game 11
+Gift succeeded in instance 6, game 11
+Social Exit succeeded in instance 6, game 11
+Options succeeded in instance 6, game 11
+Switch Park succeeded in instance 6, game 11
+Scrolling to next game...
+Working through instance 6, game 12
+Waiting for loading screen in instance 6, game 12
+Exiting pop up in instance 6, game 12
+Exiting pop up in instance 6, game 12
+Social succeeded in instance 6, game 12
+Friends succeeded in instance 6, game 12
+Gift succeeded in instance 6, game 12
+Social Exit succeeded in instance 6, game 12
+Options succeeded in instance 6, game 12
+Switch Park succeeded in instance 6, game 12
+Scrolling to next game...
+Working through instance 6, game 13
+Waiting for loading screen in instance 6, game 13
+Exiting pop up in instance 6, game 13
+Exiting pop up in instance 6, game 13
+Social succeeded in instance 6, game 13
+Friends succeeded in instance 6, game 13
+Gift succeeded in instance 6, game 13
+Social Exit succeeded in instance 6, game 13
+Options succeeded in instance 6, game 13
+Switch Park succeeded in instance 6, game 13
+Scrolling to next game...
+Working through instance 6, game 14
+Waiting for loading screen in instance 6, game 14
+Exiting pop up in instance 6, game 14
+Exiting pop up in instance 6, game 14
+Social succeeded in instance 6, game 14
+Friends succeeded in instance 6, game 14
+Gift succeeded in instance 6, game 14
+Social Exit succeeded in instance 6, game 14
+Options succeeded in instance 6, game 14
+Switch Park succeeded in instance 6, game 14
+Scrolling to next game...
+Working through instance 6, game 15
+Waiting for loading screen in instance 6, game 15
+Exiting pop up in instance 6, game 15
+Exiting pop up in instance 6, game 15
+Exiting pop up in instance 6, game 15
+Social succeeded in instance 6, game 15
+Friends succeeded in instance 6, game 15
+Gift succeeded in instance 6, game 15
+Social Exit succeeded in instance 6, game 15
+Options succeeded in instance 6, game 15
+Switch Park succeeded in instance 6, game 15
+Scrolling to next game...
+Working through instance 6, game 16
+Waiting for loading screen in instance 6, game 16
+Exiting pop up in instance 6, game 16
+Exiting pop up in instance 6, game 16
+Social succeeded in instance 6, game 16
+Friends succeeded in instance 6, game 16
+Gift succeeded in instance 6, game 16
+Social Exit succeeded in instance 6, game 16
+Options succeeded in instance 6, game 16
+Switch Park succeeded in instance 6, game 16
+Scrolling to next game...
+Working through instance 6, game 17
+Waiting for loading screen in instance 6, game 17
+Exiting pop up in instance 6, game 17
+Exiting pop up in instance 6, game 17
+Exiting pop up in instance 6, game 17
+Social succeeded in instance 6, game 17
+Friends succeeded in instance 6, game 17
+Gift succeeded in instance 6, game 17
+Social Exit succeeded in instance 6, game 17
+Options succeeded in instance 6, game 17
+Switch Park succeeded in instance 6, game 17
+Scrolling to next game...
+Working through instance 6, game 18
+Waiting for loading screen in instance 6, game 18
+Exiting pop up in instance 6, game 18
+Exiting pop up in instance 6, game 18
+Social succeeded in instance 6, game 18
+Friends succeeded in instance 6, game 18
+Gift succeeded in instance 6, game 18
+Social Exit succeeded in instance 6, game 18
+Options succeeded in instance 6, game 18
+Switch Park succeeded in instance 6, game 18
+Scrolling to next game...
+Working through instance 6, game 19
+Waiting for loading screen in instance 6, game 19
+Exiting pop up in instance 6, game 19
+Exiting pop up in instance 6, game 19
+Social succeeded in instance 6, game 19
+Friends succeeded in instance 6, game 19
+Gift succeeded in instance 6, game 19
+Social Exit succeeded in instance 6, game 19
+Options succeeded in instance 6, game 19
+Switch Park succeeded in instance 6, game 19
+Scrolling to next game...
+Working through instance 6, game 20
+Waiting for loading screen in instance 6, game 20
+Exiting pop up in instance 6, game 20
+Exiting pop up in instance 6, game 20
+Social succeeded in instance 6, game 20
+Friends succeeded in instance 6, game 20
+Gift succeeded in instance 6, game 20
+Social Exit succeeded in instance 6, game 20
+Options succeeded in instance 6, game 20
+Switch Park succeeded in instance 6, game 20
+Scrolling to next game...
+Close Instance succeeded in instance 6, game 20
+Confirm Close Instance succeeded in instance 6, game 20
+Opening instance 7 in multi-instance manager
+Waiting for emulator instance to load...
+Clicking on DV app...
+Working through instance 7, game 0
+Waiting for loading screen in instance 7, game 0
+Exiting pop up in instance 7, game 0
+Exiting pop up in instance 7, game 0
+Social succeeded in instance 7, game 0
+Friends succeeded in instance 7, game 0
+Gift succeeded in instance 7, game 0
+Social Exit succeeded in instance 7, game 0
+Options succeeded in instance 7, game 0
+Switch Park succeeded in instance 7, game 0
+Scrolling to next game...
+Working through instance 7, game 1
+Waiting for loading screen in instance 7, game 1
+Exiting pop up in instance 7, game 1
+Exiting pop up in instance 7, game 1
+Exiting pop up in instance 7, game 1
+Social succeeded in instance 7, game 1
+Friends succeeded in instance 7, game 1
+Gift succeeded in instance 7, game 1
+Social Exit succeeded in instance 7, game 1
+Options succeeded in instance 7, game 1
+Switch Park succeeded in instance 7, game 1
+Scrolling to next game...
+Working through instance 7, game 2
+Waiting for loading screen in instance 7, game 2
+Exiting pop up in instance 7, game 2
+Exiting pop up in instance 7, game 2
+Social succeeded in instance 7, game 2
+Friends succeeded in instance 7, game 2
+Gift succeeded in instance 7, game 2
+Social Exit succeeded in instance 7, game 2
+Options succeeded in instance 7, game 2
+Switch Park succeeded in instance 7, game 2
+Scrolling to next game...
+Working through instance 7, game 3
+Waiting for loading screen in instance 7, game 3
+Exiting pop up in instance 7, game 3
+Exiting pop up in instance 7, game 3
+Exiting pop up in instance 7, game 3
+Social succeeded in instance 7, game 3
+Friends succeeded in instance 7, game 3
+Gift succeeded in instance 7, game 3
+Social Exit succeeded in instance 7, game 3
+Options succeeded in instance 7, game 3
+Switch Park succeeded in instance 7, game 3
+Scrolling to next game...
+Working through instance 7, game 4
+Waiting for loading screen in instance 7, game 4
+Exiting pop up in instance 7, game 4
+Exiting pop up in instance 7, game 4
+Social succeeded in instance 7, game 4
+Friends succeeded in instance 7, game 4
+Gift succeeded in instance 7, game 4
+Social Exit succeeded in instance 7, game 4
+Options succeeded in instance 7, game 4
+Switch Park succeeded in instance 7, game 4
+Scrolling to next game...
+Working through instance 7, game 5
+Waiting for loading screen in instance 7, game 5
+Exiting pop up in instance 7, game 5
+Exiting pop up in instance 7, game 5
+Social succeeded in instance 7, game 5
+Friends succeeded in instance 7, game 5
+Gift succeeded in instance 7, game 5
+Social Exit succeeded in instance 7, game 5
+Options succeeded in instance 7, game 5
+Switch Park succeeded in instance 7, game 5
+Scrolling to next game...
+Working through instance 7, game 6
+Waiting for loading screen in instance 7, game 6
+Exiting pop up in instance 7, game 6
+Exiting pop up in instance 7, game 6
+Social succeeded in instance 7, game 6
+Friends succeeded in instance 7, game 6
+Gift succeeded in instance 7, game 6
+Social Exit succeeded in instance 7, game 6
+Options succeeded in instance 7, game 6
+Switch Park succeeded in instance 7, game 6
+Scrolling to next game...
+Working through instance 7, game 7
+Waiting for loading screen in instance 7, game 7
+Exiting pop up in instance 7, game 7
+Exiting pop up in instance 7, game 7
+Exiting pop up in instance 7, game 7
+Social succeeded in instance 7, game 7
+Friends succeeded in instance 7, game 7
+Gift succeeded in instance 7, game 7
+Social Exit succeeded in instance 7, game 7
+Options succeeded in instance 7, game 7
+Switch Park succeeded in instance 7, game 7
+Scrolling to next game...
+Working through instance 7, game 8
+Waiting for loading screen in instance 7, game 8
+Exiting pop up in instance 7, game 8
+Exiting pop up in instance 7, game 8
+Social succeeded in instance 7, game 8
+Friends succeeded in instance 7, game 8
+Gift succeeded in instance 7, game 8
+Social Exit succeeded in instance 7, game 8
+Options succeeded in instance 7, game 8
+Switch Park succeeded in instance 7, game 8
+Scrolling to next game...
+Working through instance 7, game 9
+Waiting for loading screen in instance 7, game 9
+Exiting pop up in instance 7, game 9
+Exiting pop up in instance 7, game 9
+Social succeeded in instance 7, game 9
+Friends succeeded in instance 7, game 9
+Gift succeeded in instance 7, game 9
+Social Exit succeeded in instance 7, game 9
+Options succeeded in instance 7, game 9
+Switch Park succeeded in instance 7, game 9
+Scrolling to next game...
+Working through instance 7, game 10
+Waiting for loading screen in instance 7, game 10
+Exiting pop up in instance 7, game 10
+Exiting pop up in instance 7, game 10
+Exiting pop up in instance 7, game 10
+Social succeeded in instance 7, game 10
+Friends succeeded in instance 7, game 10
+Gift succeeded in instance 7, game 10
+Social Exit succeeded in instance 7, game 10
+Options succeeded in instance 7, game 10
+Switch Park succeeded in instance 7, game 10
+Scrolling to next game...
+Working through instance 7, game 11
+Waiting for loading screen in instance 7, game 11
+Exiting pop up in instance 7, game 11
+Exiting pop up in instance 7, game 11
+Social succeeded in instance 7, game 11
+Friends succeeded in instance 7, game 11
+Gift succeeded in instance 7, game 11
+Social Exit succeeded in instance 7, game 11
+Options succeeded in instance 7, game 11
+Switch Park succeeded in instance 7, game 11
+Scrolling to next game...
+Working through instance 7, game 12
+Waiting for loading screen in instance 7, game 12
+Exiting pop up in instance 7, game 12
+Exiting pop up in instance 7, game 12
+Social succeeded in instance 7, game 12
+Friends succeeded in instance 7, game 12
+Gift succeeded in instance 7, game 12
+Social Exit succeeded in instance 7, game 12
+Options succeeded in instance 7, game 12
+Switch Park succeeded in instance 7, game 12
+Scrolling to next game...
+Working through instance 7, game 13
+Waiting for loading screen in instance 7, game 13
+Exiting pop up in instance 7, game 13
+Exiting pop up in instance 7, game 13
+Exiting pop up in instance 7, game 13
+Social succeeded in instance 7, game 13
+Friends succeeded in instance 7, game 13
+Gift succeeded in instance 7, game 13
+Social Exit succeeded in instance 7, game 13
+Options succeeded in instance 7, game 13
+Switch Park succeeded in instance 7, game 13
+Scrolling to next game...
+Working through instance 7, game 14
+Waiting for loading screen in instance 7, game 14
+Exiting pop up in instance 7, game 14
+Exiting pop up in instance 7, game 14
+Exiting pop up in instance 7, game 14
+Social succeeded in instance 7, game 14
+Friends succeeded in instance 7, game 14
+Gift succeeded in instance 7, game 14
+Social Exit succeeded in instance 7, game 14
+Options succeeded in instance 7, game 14
+Switch Park succeeded in instance 7, game 14
+Scrolling to next game...
+Working through instance 7, game 15
+Waiting for loading screen in instance 7, game 15
+Exiting pop up in instance 7, game 15
+Exiting pop up in instance 7, game 15
+Exiting pop up in instance 7, game 15
+Social succeeded in instance 7, game 15
+Friends succeeded in instance 7, game 15
+Gift succeeded in instance 7, game 15
+Social Exit succeeded in instance 7, game 15
+Options succeeded in instance 7, game 15
+Switch Park succeeded in instance 7, game 15
+Scrolling to next game...
+Working through instance 7, game 16
+Waiting for loading screen in instance 7, game 16
+Exiting pop up in instance 7, game 16
+Exiting pop up in instance 7, game 16
+Exiting pop up in instance 7, game 16
+Social succeeded in instance 7, game 16
+Friends succeeded in instance 7, game 16
+Gift succeeded in instance 7, game 16
+Social Exit succeeded in instance 7, game 16
+Options succeeded in instance 7, game 16
+Switch Park succeeded in instance 7, game 16
+Scrolling to next game...
+Working through instance 7, game 17
+Waiting for loading screen in instance 7, game 17
+Exiting pop up in instance 7, game 17
+Exiting pop up in instance 7, game 17
+Exiting pop up in instance 7, game 17
+Social succeeded in instance 7, game 17
+Friends succeeded in instance 7, game 17
+Gift succeeded in instance 7, game 17
+Social Exit succeeded in instance 7, game 17
+Options succeeded in instance 7, game 17
+Switch Park succeeded in instance 7, game 17
+Scrolling to next game...
+Working through instance 7, game 18
+Waiting for loading screen in instance 7, game 18
+Exiting pop up in instance 7, game 18
+Exiting pop up in instance 7, game 18
+Social succeeded in instance 7, game 18
+Friends succeeded in instance 7, game 18
+Gift succeeded in instance 7, game 18
+Social Exit succeeded in instance 7, game 18
+Options succeeded in instance 7, game 18
+Switch Park succeeded in instance 7, game 18
+Scrolling to next game...
+Working through instance 7, game 19
+Waiting for loading screen in instance 7, game 19
+Exiting pop up in instance 7, game 19
+Exiting pop up in instance 7, game 19
+Exiting pop up in instance 7, game 19
+Social succeeded in instance 7, game 19
+Friends succeeded in instance 7, game 19
+Gift succeeded in instance 7, game 19
+Social Exit succeeded in instance 7, game 19
+Options succeeded in instance 7, game 19
+Switch Park succeeded in instance 7, game 19
+Scrolling to next game...
+Working through instance 7, game 20
+Waiting for loading screen in instance 7, game 20
+Exiting pop up in instance 7, game 20
+Exiting pop up in instance 7, game 20
+Exiting pop up in instance 7, game 20
+Social succeeded in instance 7, game 20
+Friends succeeded in instance 7, game 20
+Gift succeeded in instance 7, game 20
+Social Exit succeeded in instance 7, game 20
+Options succeeded in instance 7, game 20
+Switch Park succeeded in instance 7, game 20
+Scrolling to next game...
+Close Instance succeeded in instance 7, game 20
+Confirm Close Instance succeeded in instance 7, game 20
+Opening instance 8 in multi-instance manager
+Waiting for emulator instance to load...
+Clicking on DV app...
+Working through instance 8, game 0
+Waiting for loading screen in instance 8, game 0
+Exiting pop up in instance 8, game 0
+Exiting pop up in instance 8, game 0
+Social succeeded in instance 8, game 0
+Friends failed in instance 8, game 0
+Friends succeeded in instance 8, game 0
+Gift failed in instance 8, game 0
+Social Exit succeeded in instance 8, game 0
+Options succeeded in instance 8, game 0
+Switch Park succeeded in instance 8, game 0
+Scrolling to next game...
+Working through instance 8, game 1
+Waiting for loading screen in instance 8, game 1
+Exiting pop up in instance 8, game 1
+Exiting pop up in instance 8, game 1
+Social succeeded in instance 8, game 1
+Friends succeeded in instance 8, game 1
+Gift succeeded in instance 8, game 1
+Social Exit succeeded in instance 8, game 1
+Options succeeded in instance 8, game 1
+Switch Park succeeded in instance 8, game 1
+Scrolling to next game...
+Working through instance 8, game 2
+Waiting for loading screen in instance 8, game 2
+Exiting pop up in instance 8, game 2
+Exiting pop up in instance 8, game 2
+Social succeeded in instance 8, game 2
+Friends succeeded in instance 8, game 2
+Gift succeeded in instance 8, game 2
+Social Exit succeeded in instance 8, game 2
+Options succeeded in instance 8, game 2
+Switch Park succeeded in instance 8, game 2
+Scrolling to next game...
+Working through instance 8, game 3
+Waiting for loading screen in instance 8, game 3
+Exiting pop up in instance 8, game 3
+Exiting pop up in instance 8, game 3
+Social succeeded in instance 8, game 3
+Friends succeeded in instance 8, game 3
+Gift succeeded in instance 8, game 3
+Social Exit succeeded in instance 8, game 3
+Options succeeded in instance 8, game 3
+Switch Park succeeded in instance 8, game 3
+Scrolling to next game...
+Working through instance 8, game 4
+Waiting for loading screen in instance 8, game 4
+Exiting pop up in instance 8, game 4
+Exiting pop up in instance 8, game 4
+Social succeeded in instance 8, game 4
+Friends succeeded in instance 8, game 4
+Gift succeeded in instance 8, game 4
+Social Exit succeeded in instance 8, game 4
+Options succeeded in instance 8, game 4
+Switch Park succeeded in instance 8, game 4
+Scrolling to next game...
+Working through instance 8, game 5
+Waiting for loading screen in instance 8, game 5
+Exiting pop up in instance 8, game 5
+Exiting pop up in instance 8, game 5
+Exiting pop up in instance 8, game 5
+Social succeeded in instance 8, game 5
+Friends succeeded in instance 8, game 5
+Gift succeeded in instance 8, game 5
+Social Exit succeeded in instance 8, game 5
+Options succeeded in instance 8, game 5
+Switch Park succeeded in instance 8, game 5
+Scrolling to next game...
+Working through instance 8, game 6
+Waiting for loading screen in instance 8, game 6
+Exiting pop up in instance 8, game 6
+Exiting pop up in instance 8, game 6
+Social succeeded in instance 8, game 6
+Friends succeeded in instance 8, game 6
+Gift succeeded in instance 8, game 6
+Social Exit succeeded in instance 8, game 6
+Options succeeded in instance 8, game 6
+Switch Park succeeded in instance 8, game 6
+Scrolling to next game...
+Working through instance 8, game 7
+Waiting for loading screen in instance 8, game 7
+Exiting pop up in instance 8, game 7
+Exiting pop up in instance 8, game 7
+Social succeeded in instance 8, game 7
+Friends succeeded in instance 8, game 7
+Gift succeeded in instance 8, game 7
+Social Exit succeeded in instance 8, game 7
+Options succeeded in instance 8, game 7
+Switch Park succeeded in instance 8, game 7
+Scrolling to next game...
+Working through instance 8, game 8
+Waiting for loading screen in instance 8, game 8
+Exiting pop up in instance 8, game 8
+Exiting pop up in instance 8, game 8
+Social succeeded in instance 8, game 8
+Friends succeeded in instance 8, game 8
+Gift succeeded in instance 8, game 8
+Social Exit succeeded in instance 8, game 8
+Options succeeded in instance 8, game 8
+Switch Park succeeded in instance 8, game 8
+Scrolling to next game...
+Working through instance 8, game 9
+Waiting for loading screen in instance 8, game 9
+Exiting pop up in instance 8, game 9
+Exiting pop up in instance 8, game 9
+Exiting pop up in instance 8, game 9
+Social succeeded in instance 8, game 9
+Friends succeeded in instance 8, game 9
+Gift succeeded in instance 8, game 9
+Social Exit succeeded in instance 8, game 9
+Options succeeded in instance 8, game 9
+Switch Park succeeded in instance 8, game 9
+Scrolling to next game...
+Working through instance 8, game 10
+Waiting for loading screen in instance 8, game 10
+Exiting pop up in instance 8, game 10
+Exiting pop up in instance 8, game 10
+Social succeeded in instance 8, game 10
+Friends succeeded in instance 8, game 10
+Gift succeeded in instance 8, game 10
+Social Exit succeeded in instance 8, game 10
+Options succeeded in instance 8, game 10
+Switch Park succeeded in instance 8, game 10
+Scrolling to next game...
+Working through instance 8, game 11
+Waiting for loading screen in instance 8, game 11
+Exiting pop up in instance 8, game 11
+Exiting pop up in instance 8, game 11
+Social succeeded in instance 8, game 11
+Friends succeeded in instance 8, game 11
+Gift succeeded in instance 8, game 11
+Social Exit succeeded in instance 8, game 11
+Options succeeded in instance 8, game 11
+Switch Park succeeded in instance 8, game 11
+Scrolling to next game...
+Working through instance 8, game 12
+Waiting for loading screen in instance 8, game 12
+Exiting pop up in instance 8, game 12
+Exiting pop up in instance 8, game 12
+Social succeeded in instance 8, game 12
+Friends succeeded in instance 8, game 12
+Gift succeeded in instance 8, game 12
+Social Exit succeeded in instance 8, game 12
+Options succeeded in instance 8, game 12
+Switch Park succeeded in instance 8, game 12
+Scrolling to next game...
+Working through instance 8, game 13
+Waiting for loading screen in instance 8, game 13
+Exiting pop up in instance 8, game 13
+Exiting pop up in instance 8, game 13
+Social succeeded in instance 8, game 13
+Friends succeeded in instance 8, game 13
+Gift succeeded in instance 8, game 13
+Social Exit succeeded in instance 8, game 13
+Options succeeded in instance 8, game 13
+Switch Park succeeded in instance 8, game 13
+Scrolling to next game...
+Working through instance 8, game 14
+Waiting for loading screen in instance 8, game 14
+Exiting pop up in instance 8, game 14
+Exiting pop up in instance 8, game 14
+Exiting pop up in instance 8, game 14
+Social succeeded in instance 8, game 14
+Friends succeeded in instance 8, game 14
+Gift succeeded in instance 8, game 14
+Social Exit succeeded in instance 8, game 14
+Options succeeded in instance 8, game 14
+Switch Park succeeded in instance 8, game 14
+Scrolling to next game...
+Working through instance 8, game 15
+Waiting for loading screen in instance 8, game 15
+Exiting pop up in instance 8, game 15
+Exiting pop up in instance 8, game 15
+Exiting pop up in instance 8, game 15
+Social succeeded in instance 8, game 15
+Friends succeeded in instance 8, game 15
+Gift succeeded in instance 8, game 15
+Social Exit succeeded in instance 8, game 15
+Options succeeded in instance 8, game 15
+Switch Park succeeded in instance 8, game 15
+Scrolling to next game...
+Working through instance 8, game 16
+Waiting for loading screen in instance 8, game 16
+Exiting pop up in instance 8, game 16
+Exiting pop up in instance 8, game 16
+Social succeeded in instance 8, game 16
+Friends succeeded in instance 8, game 16
+Gift succeeded in instance 8, game 16
+Social Exit succeeded in instance 8, game 16
+Options succeeded in instance 8, game 16
+Switch Park succeeded in instance 8, game 16
+Scrolling to next game...
+Working through instance 8, game 17
+Waiting for loading screen in instance 8, game 17
+Exiting pop up in instance 8, game 17
+Exiting pop up in instance 8, game 17
+Exiting pop up in instance 8, game 17
+Social succeeded in instance 8, game 17
+Friends succeeded in instance 8, game 17
+Gift succeeded in instance 8, game 17
+Social Exit succeeded in instance 8, game 17
+Options succeeded in instance 8, game 17
+Switch Park succeeded in instance 8, game 17
+Scrolling to next game...
+Working through instance 8, game 18
+Waiting for loading screen in instance 8, game 18
+Exiting pop up in instance 8, game 18
+Exiting pop up in instance 8, game 18
+Exiting pop up in instance 8, game 18
+Social succeeded in instance 8, game 18
+Friends succeeded in instance 8, game 18
+Gift succeeded in instance 8, game 18
+Social Exit succeeded in instance 8, game 18
+Options succeeded in instance 8, game 18
+Switch Park succeeded in instance 8, game 18
+Scrolling to next game...
+Working through instance 8, game 19
+Waiting for loading screen in instance 8, game 19
+Exiting pop up in instance 8, game 19
+Exiting pop up in instance 8, game 19
+Social succeeded in instance 8, game 19
+Friends succeeded in instance 8, game 19
+Gift succeeded in instance 8, game 19
+Social Exit succeeded in instance 8, game 19
+Options succeeded in instance 8, game 19
+Switch Park succeeded in instance 8, game 19
+Scrolling to next game...
+Working through instance 8, game 20
+Waiting for loading screen in instance 8, game 20
+Exiting pop up in instance 8, game 20
+Exiting pop up in instance 8, game 20
+Exiting pop up in instance 8, game 20
+Social succeeded in instance 8, game 20
+Friends succeeded in instance 8, game 20
+Gift succeeded in instance 8, game 20
+Social Exit succeeded in instance 8, game 20
+Options succeeded in instance 8, game 20
+Switch Park succeeded in instance 8, game 20
+Scrolling to next game...
+Close Instance succeeded in instance 8, game 20
+Confirm Close Instance succeeded in instance 8, game 20
+Opening instance 9 in multi-instance manager
+Waiting for emulator instance to load...
+Clicking on DV app...
+Working through instance 9, game 0
+Waiting for loading screen in instance 9, game 0
+Exiting pop up in instance 9, game 0
+Exiting pop up in instance 9, game 0
+Exiting pop up in instance 9, game 0
+Social succeeded in instance 9, game 0
+Friends succeeded in instance 9, game 0
+Gift succeeded in instance 9, game 0
+Social Exit succeeded in instance 9, game 0
+Options succeeded in instance 9, game 0
+Switch Park succeeded in instance 9, game 0
+Scrolling to next game...
+Working through instance 9, game 1
+Waiting for loading screen in instance 9, game 1
+Exiting pop up in instance 9, game 1
+Exiting pop up in instance 9, game 1
+Social succeeded in instance 9, game 1
+Friends succeeded in instance 9, game 1
+Gift succeeded in instance 9, game 1
+Social Exit succeeded in instance 9, game 1
+Options succeeded in instance 9, game 1
+Switch Park succeeded in instance 9, game 1
+Scrolling to next game...
+Working through instance 9, game 2
+Waiting for loading screen in instance 9, game 2
+Exiting pop up in instance 9, game 2
+Exiting pop up in instance 9, game 2
+Exiting pop up in instance 9, game 2
+Social succeeded in instance 9, game 2
+Friends succeeded in instance 9, game 2
+Gift succeeded in instance 9, game 2
+Social Exit succeeded in instance 9, game 2
+Options succeeded in instance 9, game 2
+Switch Park succeeded in instance 9, game 2
+Scrolling to next game...
+Working through instance 9, game 3
+Waiting for loading screen in instance 9, game 3
+Exiting pop up in instance 9, game 3
+Exiting pop up in instance 9, game 3
+Social succeeded in instance 9, game 3
+Friends succeeded in instance 9, game 3
+Gift succeeded in instance 9, game 3
+Social Exit succeeded in instance 9, game 3
+Options succeeded in instance 9, game 3
+Switch Park succeeded in instance 9, game 3
+Scrolling to next game...
+Working through instance 9, game 4
+Waiting for loading screen in instance 9, game 4
+Exiting pop up in instance 9, game 4
+Exiting pop up in instance 9, game 4
+Exiting pop up in instance 9, game 4
+Social succeeded in instance 9, game 4
+Friends succeeded in instance 9, game 4
+Gift succeeded in instance 9, game 4
+Social Exit succeeded in instance 9, game 4
+Options succeeded in instance 9, game 4
+Switch Park succeeded in instance 9, game 4
+Scrolling to next game...
+Working through instance 9, game 5
+Waiting for loading screen in instance 9, game 5
+Exiting pop up in instance 9, game 5
+Exiting pop up in instance 9, game 5
+Exiting pop up in instance 9, game 5
+Social succeeded in instance 9, game 5
+Friends succeeded in instance 9, game 5
+Gift succeeded in instance 9, game 5
+Social Exit succeeded in instance 9, game 5
+Options succeeded in instance 9, game 5
+Switch Park succeeded in instance 9, game 5
+Scrolling to next game...
+Working through instance 9, game 6
+Waiting for loading screen in instance 9, game 6
+Exiting pop up in instance 9, game 6
+Exiting pop up in instance 9, game 6
+Exiting pop up in instance 9, game 6
+Social succeeded in instance 9, game 6
+Friends succeeded in instance 9, game 6
+Gift succeeded in instance 9, game 6
+Social Exit succeeded in instance 9, game 6
+Options succeeded in instance 9, game 6
+Switch Park succeeded in instance 9, game 6
+Scrolling to next game...
+Working through instance 9, game 7
+Waiting for loading screen in instance 9, game 7
+Exiting pop up in instance 9, game 7
+Exiting pop up in instance 9, game 7
+Exiting pop up in instance 9, game 7
+Social succeeded in instance 9, game 7
+Friends succeeded in instance 9, game 7
+Gift succeeded in instance 9, game 7
+Social Exit succeeded in instance 9, game 7
+Options succeeded in instance 9, game 7
+Switch Park succeeded in instance 9, game 7
+Scrolling to next game...
+Working through instance 9, game 8
+Waiting for loading screen in instance 9, game 8
+Exiting pop up in instance 9, game 8
+Exiting pop up in instance 9, game 8
+Social succeeded in instance 9, game 8
+Friends succeeded in instance 9, game 8
+Gift succeeded in instance 9, game 8
+Social Exit succeeded in instance 9, game 8
+Options succeeded in instance 9, game 8
+Switch Park succeeded in instance 9, game 8
+Scrolling to next game...
+Working through instance 9, game 9
+Waiting for loading screen in instance 9, game 9
+Exiting pop up in instance 9, game 9
+Exiting pop up in instance 9, game 9
+Exiting pop up in instance 9, game 9
+Social succeeded in instance 9, game 9
+Friends succeeded in instance 9, game 9
+Gift succeeded in instance 9, game 9
+Social Exit succeeded in instance 9, game 9
+Options succeeded in instance 9, game 9
+Switch Park succeeded in instance 9, game 9
+Scrolling to next game...
+Working through instance 9, game 10
+Waiting for loading screen in instance 9, game 10
+Exiting pop up in instance 9, game 10
+Exiting pop up in instance 9, game 10
+Social succeeded in instance 9, game 10
+Friends succeeded in instance 9, game 10
+Gift succeeded in instance 9, game 10
+Social Exit succeeded in instance 9, game 10
+Options succeeded in instance 9, game 10
+Switch Park succeeded in instance 9, game 10
+Scrolling to next game...
+Working through instance 9, game 11
+Waiting for loading screen in instance 9, game 11
+Exiting pop up in instance 9, game 11
+Exiting pop up in instance 9, game 11
+Exiting pop up in instance 9, game 11
+Social succeeded in instance 9, game 11
+Friends succeeded in instance 9, game 11
+Gift succeeded in instance 9, game 11
+Social Exit succeeded in instance 9, game 11
+Options succeeded in instance 9, game 11
+Switch Park succeeded in instance 9, game 11
+Scrolling to next game...
+Working through instance 9, game 12
+Waiting for loading screen in instance 9, game 12
+Exiting pop up in instance 9, game 12
+Exiting pop up in instance 9, game 12
+Exiting pop up in instance 9, game 12
+Social succeeded in instance 9, game 12
+Friends succeeded in instance 9, game 12
+Gift succeeded in instance 9, game 12
+Social Exit succeeded in instance 9, game 12
+Options succeeded in instance 9, game 12
+Switch Park succeeded in instance 9, game 12
+Scrolling to next game...
+Working through instance 9, game 13
+Waiting for loading screen in instance 9, game 13
+Exiting pop up in instance 9, game 13
+Exiting pop up in instance 9, game 13
+Exiting pop up in instance 9, game 13
+Social succeeded in instance 9, game 13
+Friends succeeded in instance 9, game 13
+Gift succeeded in instance 9, game 13
+Social Exit succeeded in instance 9, game 13
+Options succeeded in instance 9, game 13
+Switch Park succeeded in instance 9, game 13
+Scrolling to next game...
+Working through instance 9, game 14
+Waiting for loading screen in instance 9, game 14
+Exiting pop up in instance 9, game 14
+Exiting pop up in instance 9, game 14
+Social succeeded in instance 9, game 14
+Friends succeeded in instance 9, game 14
+Gift succeeded in instance 9, game 14
+Social Exit succeeded in instance 9, game 14
+Options succeeded in instance 9, game 14
+Switch Park succeeded in instance 9, game 14
+Scrolling to next game...
+Working through instance 9, game 15
+Waiting for loading screen in instance 9, game 15
+Exiting pop up in instance 9, game 15
+Exiting pop up in instance 9, game 15
+Social succeeded in instance 9, game 15
+Friends succeeded in instance 9, game 15
+Gift succeeded in instance 9, game 15
+Social Exit succeeded in instance 9, game 15
+Options succeeded in instance 9, game 15
+Switch Park succeeded in instance 9, game 15
+Scrolling to next game...
+Working through instance 9, game 16
+Waiting for loading screen in instance 9, game 16
+Exiting pop up in instance 9, game 16
+Exiting pop up in instance 9, game 16
+Social succeeded in instance 9, game 16
+Friends succeeded in instance 9, game 16
+Gift succeeded in instance 9, game 16
+Social Exit succeeded in instance 9, game 16
+Options succeeded in instance 9, game 16
+Switch Park succeeded in instance 9, game 16
+Scrolling to next game...
+Working through instance 9, game 17
+Waiting for loading screen in instance 9, game 17
+Exiting pop up in instance 9, game 17
+Exiting pop up in instance 9, game 17
+Exiting pop up in instance 9, game 17
+Social succeeded in instance 9, game 17
+Friends succeeded in instance 9, game 17
+Gift succeeded in instance 9, game 17
+Social Exit succeeded in instance 9, game 17
+Options succeeded in instance 9, game 17
+Switch Park succeeded in instance 9, game 17
+Scrolling to next game...
+Working through instance 9, game 18
+Waiting for loading screen in instance 9, game 18
+Exiting pop up in instance 9, game 18
+Exiting pop up in instance 9, game 18
+Exiting pop up in instance 9, game 18
+Social succeeded in instance 9, game 18
+Friends succeeded in instance 9, game 18
+Gift succeeded in instance 9, game 18
+Social Exit succeeded in instance 9, game 18
+Options succeeded in instance 9, game 18
+Switch Park succeeded in instance 9, game 18
+Scrolling to next game...
+Working through instance 9, game 19
+Waiting for loading screen in instance 9, game 19
+Exiting pop up in instance 9, game 19
+Exiting pop up in instance 9, game 19
+Social succeeded in instance 9, game 19
+Friends succeeded in instance 9, game 19
+Gift succeeded in instance 9, game 19
+Social Exit succeeded in instance 9, game 19
+Options succeeded in instance 9, game 19
+Switch Park succeeded in instance 9, game 19
+Scrolling to next game...
+Working through instance 9, game 20
+Waiting for loading screen in instance 9, game 20
+Exiting pop up in instance 9, game 20
+Exiting pop up in instance 9, game 20
+Exiting pop up in instance 9, game 20
+Social succeeded in instance 9, game 20
+Friends succeeded in instance 9, game 20
+Gift succeeded in instance 9, game 20
+Social Exit succeeded in instance 9, game 20
+Options succeeded in instance 9, game 20
+Switch Park succeeded in instance 9, game 20
+Scrolling to next game...
+Close Instance succeeded in instance 9, game 20
+Confirm Close Instance succeeded in instance 9, game 20
+Opening instance 10 in multi-instance manager
+Waiting for emulator instance to load...
+Clicking on DV app...
+Working through instance 10, game 0
+Waiting for loading screen in instance 10, game 0
+Exiting pop up in instance 10, game 0
+Exiting pop up in instance 10, game 0
+Social succeeded in instance 10, game 0
+Friends failed in instance 10, game 0
+Friends succeeded in instance 10, game 0
+Gift succeeded in instance 10, game 0
+Social Exit succeeded in instance 10, game 0
+Options succeeded in instance 10, game 0
+Switch Park succeeded in instance 10, game 0
+Scrolling to next game...
+Working through instance 10, game 1
+Waiting for loading screen in instance 10, game 1
+Exiting pop up in instance 10, game 1
+Exiting pop up in instance 10, game 1
+Exiting pop up in instance 10, game 1
+Social succeeded in instance 10, game 1
+Friends succeeded in instance 10, game 1
+Gift succeeded in instance 10, game 1
+Social Exit succeeded in instance 10, game 1
+Options succeeded in instance 10, game 1
+Switch Park succeeded in instance 10, game 1
+Scrolling to next game...
+Working through instance 10, game 2
+Waiting for loading screen in instance 10, game 2
+Exiting pop up in instance 10, game 2
+Exiting pop up in instance 10, game 2
+Social succeeded in instance 10, game 2
+Friends succeeded in instance 10, game 2
+Gift succeeded in instance 10, game 2
+Social Exit succeeded in instance 10, game 2
+Options succeeded in instance 10, game 2
+Switch Park succeeded in instance 10, game 2
+Scrolling to next game...
+Working through instance 10, game 3
+Waiting for loading screen in instance 10, game 3
+Exiting pop up in instance 10, game 3
+Exiting pop up in instance 10, game 3
+Exiting pop up in instance 10, game 3
+Social succeeded in instance 10, game 3
+Friends succeeded in instance 10, game 3
+Gift succeeded in instance 10, game 3
+Social Exit succeeded in instance 10, game 3
+Options succeeded in instance 10, game 3
+Switch Park succeeded in instance 10, game 3
+Scrolling to next game...
+Working through instance 10, game 4
+Waiting for loading screen in instance 10, game 4
+Exiting pop up in instance 10, game 4
+Exiting pop up in instance 10, game 4
+Exiting pop up in instance 10, game 4
+Social succeeded in instance 10, game 4
+Friends succeeded in instance 10, game 4
+Gift succeeded in instance 10, game 4
+Social Exit succeeded in instance 10, game 4
+Options succeeded in instance 10, game 4
+Switch Park succeeded in instance 10, game 4
+Scrolling to next game...
+Working through instance 10, game 5
+Waiting for loading screen in instance 10, game 5
+Exiting pop up in instance 10, game 5
+Exiting pop up in instance 10, game 5
+Exiting pop up in instance 10, game 5
+Social succeeded in instance 10, game 5
+Friends succeeded in instance 10, game 5
+Gift succeeded in instance 10, game 5
+Social Exit succeeded in instance 10, game 5
+Options succeeded in instance 10, game 5
+Switch Park succeeded in instance 10, game 5
+Scrolling to next game...
+Working through instance 10, game 6
+Waiting for loading screen in instance 10, game 6
+Exiting pop up in instance 10, game 6
+Exiting pop up in instance 10, game 6
+Exiting pop up in instance 10, game 6
+Social succeeded in instance 10, game 6
+Friends succeeded in instance 10, game 6
+Gift succeeded in instance 10, game 6
+Social Exit succeeded in instance 10, game 6
+Options succeeded in instance 10, game 6
+Switch Park succeeded in instance 10, game 6
+Scrolling to next game...
+Working through instance 10, game 7
+Waiting for loading screen in instance 10, game 7
+Exiting pop up in instance 10, game 7
+Exiting pop up in instance 10, game 7
+Exiting pop up in instance 10, game 7
+Social succeeded in instance 10, game 7
+Friends succeeded in instance 10, game 7
+Gift succeeded in instance 10, game 7
+Social Exit succeeded in instance 10, game 7
+Options succeeded in instance 10, game 7
+Switch Park succeeded in instance 10, game 7
+Scrolling to next game...
+Working through instance 10, game 8
+Waiting for loading screen in instance 10, game 8
+Exiting pop up in instance 10, game 8
+Exiting pop up in instance 10, game 8
+Exiting pop up in instance 10, game 8
+Social succeeded in instance 10, game 8
+Friends succeeded in instance 10, game 8
+Gift succeeded in instance 10, game 8
+Social Exit succeeded in instance 10, game 8
+Options succeeded in instance 10, game 8
+Switch Park succeeded in instance 10, game 8
+Scrolling to next game...
+Working through instance 10, game 9
+Waiting for loading screen in instance 10, game 9
+Exiting pop up in instance 10, game 9
+Exiting pop up in instance 10, game 9
+Exiting pop up in instance 10, game 9
+Social succeeded in instance 10, game 9
+Friends succeeded in instance 10, game 9
+Gift succeeded in instance 10, game 9
+Social Exit succeeded in instance 10, game 9
+Options succeeded in instance 10, game 9
+Switch Park succeeded in instance 10, game 9
+Scrolling to next game...
+Working through instance 10, game 10
+Waiting for loading screen in instance 10, game 10
+Exiting pop up in instance 10, game 10
+Exiting pop up in instance 10, game 10
+Exiting pop up in instance 10, game 10
+Social succeeded in instance 10, game 10
+Friends succeeded in instance 10, game 10
+Gift succeeded in instance 10, game 10
+Social Exit succeeded in instance 10, game 10
+Options succeeded in instance 10, game 10
+Switch Park succeeded in instance 10, game 10
+Scrolling to next game...
+Working through instance 10, game 11
+Waiting for loading screen in instance 10, game 11
+Exiting pop up in instance 10, game 11
+Exiting pop up in instance 10, game 11
+Exiting pop up in instance 10, game 11
+Social succeeded in instance 10, game 11
+Friends succeeded in instance 10, game 11
+Gift succeeded in instance 10, game 11
+Social Exit succeeded in instance 10, game 11
+Options succeeded in instance 10, game 11
+Switch Park succeeded in instance 10, game 11
+Scrolling to next game...
+Working through instance 10, game 12
+Waiting for loading screen in instance 10, game 12
+Exiting pop up in instance 10, game 12
+Exiting pop up in instance 10, game 12
+Exiting pop up in instance 10, game 12
+Social succeeded in instance 10, game 12
+Friends succeeded in instance 10, game 12
+Gift succeeded in instance 10, game 12
+Social Exit succeeded in instance 10, game 12
+Options succeeded in instance 10, game 12
+Switch Park succeeded in instance 10, game 12
+Scrolling to next game...
+Working through instance 10, game 13
+Waiting for loading screen in instance 10, game 13
+Exiting pop up in instance 10, game 13
+Exiting pop up in instance 10, game 13
+Exiting pop up in instance 10, game 13
+Social succeeded in instance 10, game 13
+Friends succeeded in instance 10, game 13
+Gift succeeded in instance 10, game 13
+Social Exit succeeded in instance 10, game 13
+Options succeeded in instance 10, game 13
+Switch Park succeeded in instance 10, game 13
+Scrolling to next game...
+Working through instance 10, game 14
+Waiting for loading screen in instance 10, game 14
+Exiting pop up in instance 10, game 14
+Exiting pop up in instance 10, game 14
+Exiting pop up in instance 10, game 14
+Social succeeded in instance 10, game 14
+Friends succeeded in instance 10, game 14
+Gift succeeded in instance 10, game 14
+Social Exit succeeded in instance 10, game 14
+Options succeeded in instance 10, game 14
+Switch Park succeeded in instance 10, game 14
+Scrolling to next game...
+Working through instance 10, game 15
+Waiting for loading screen in instance 10, game 15
+Exiting pop up in instance 10, game 15
+Exiting pop up in instance 10, game 15
+Exiting pop up in instance 10, game 15
+Social succeeded in instance 10, game 15
+Friends succeeded in instance 10, game 15
+Gift succeeded in instance 10, game 15
+Social Exit succeeded in instance 10, game 15
+Options succeeded in instance 10, game 15
+Switch Park succeeded in instance 10, game 15
+Scrolling to next game...
+Working through instance 10, game 16
+Waiting for loading screen in instance 10, game 16
+Exiting pop up in instance 10, game 16
+Exiting pop up in instance 10, game 16
+Exiting pop up in instance 10, game 16
+Social succeeded in instance 10, game 16
+Friends succeeded in instance 10, game 16
+Gift succeeded in instance 10, game 16
+Social Exit succeeded in instance 10, game 16
+Options succeeded in instance 10, game 16
+Switch Park succeeded in instance 10, game 16
+Scrolling to next game...
+Working through instance 10, game 17
+Waiting for loading screen in instance 10, game 17
+Exiting pop up in instance 10, game 17
+Exiting pop up in instance 10, game 17
+Exiting pop up in instance 10, game 17
+Social succeeded in instance 10, game 17
+Friends succeeded in instance 10, game 17
+Gift succeeded in instance 10, game 17
+Social Exit succeeded in instance 10, game 17
+Options succeeded in instance 10, game 17
+Switch Park succeeded in instance 10, game 17
+Scrolling to next game...
+Working through instance 10, game 18
+Waiting for loading screen in instance 10, game 18
+Exiting pop up in instance 10, game 18
+Exiting pop up in instance 10, game 18
+Exiting pop up in instance 10, game 18
+Social succeeded in instance 10, game 18
+Friends succeeded in instance 10, game 18
+Gift succeeded in instance 10, game 18
+Social Exit succeeded in instance 10, game 18
+Options succeeded in instance 10, game 18
+Switch Park succeeded in instance 10, game 18
+Scrolling to next game...
+Working through instance 10, game 19
+Waiting for loading screen in instance 10, game 19
+Exiting pop up in instance 10, game 19
+Exiting pop up in instance 10, game 19
+Exiting pop up in instance 10, game 19
+Social succeeded in instance 10, game 19
+Friends succeeded in instance 10, game 19
+Gift succeeded in instance 10, game 19
+Social Exit succeeded in instance 10, game 19
+Options succeeded in instance 10, game 19
+Switch Park succeeded in instance 10, game 19
+Scrolling to next game...
+Working through instance 10, game 20
+Waiting for loading screen in instance 10, game 20
+Exiting pop up in instance 10, game 20
+Exiting pop up in instance 10, game 20
+Exiting pop up in instance 10, game 20
+Social succeeded in instance 10, game 20
+Friends succeeded in instance 10, game 20
+Gift succeeded in instance 10, game 20
+Social Exit succeeded in instance 10, game 20
+Options succeeded in instance 10, game 20
+Switch Park succeeded in instance 10, game 20
+Scrolling to next game...
+Close Instance succeeded in instance 10, game 20
+Confirm Close Instance succeeded in instance 10, game 20
+Opening instance 11 in multi-instance manager
+Waiting for emulator instance to load...
+Clicking on DV app...
+Working through instance 11, game 0
+Waiting for loading screen in instance 11, game 0
+Exiting pop up in instance 11, game 0
+Social succeeded in instance 11, game 0
+Friends succeeded in instance 11, game 0
+Gift failed in instance 11, game 0
+Social Exit succeeded in instance 11, game 0
+Options succeeded in instance 11, game 0
+Switch Park succeeded in instance 11, game 0
+Scrolling to next game...
+Working through instance 11, game 1
+Waiting for loading screen in instance 11, game 1
+Exiting pop up in instance 11, game 1
+Social succeeded in instance 11, game 1
+Friends succeeded in instance 11, game 1
+Gift failed in instance 11, game 1
+Social Exit succeeded in instance 11, game 1
+Options succeeded in instance 11, game 1
+Switch Park succeeded in instance 11, game 1
+Scrolling to next game...
+Working through instance 11, game 2
+Waiting for loading screen in instance 11, game 2
+Exiting pop up in instance 11, game 2
+Social succeeded in instance 11, game 2
+Friends succeeded in instance 11, game 2
+Gift failed in instance 11, game 2
+Social Exit succeeded in instance 11, game 2
+Options succeeded in instance 11, game 2
+Switch Park succeeded in instance 11, game 2
+Scrolling to next game...
+Working through instance 11, game 3
+Waiting for loading screen in instance 11, game 3
+Exiting pop up in instance 11, game 3
+Social succeeded in instance 11, game 3
+Friends succeeded in instance 11, game 3
+Gift failed in instance 11, game 3
+Social Exit succeeded in instance 11, game 3
+Options succeeded in instance 11, game 3
+Switch Park succeeded in instance 11, game 3
+Scrolling to next game...
+Working through instance 11, game 4
+Waiting for loading screen in instance 11, game 4
+Exiting pop up in instance 11, game 4
+Social succeeded in instance 11, game 4
+Friends succeeded in instance 11, game 4
+Gift failed in instance 11, game 4
+Social Exit succeeded in instance 11, game 4
+Options succeeded in instance 11, game 4
+Switch Park succeeded in instance 11, game 4
+Scrolling to next game...
+Working through instance 11, game 5
+Waiting for loading screen in instance 11, game 5
+Exiting pop up in instance 11, game 5
+Social succeeded in instance 11, game 5
+Friends succeeded in instance 11, game 5
+Gift failed in instance 11, game 5
+Social Exit succeeded in instance 11, game 5
+Options succeeded in instance 11, game 5
+Switch Park succeeded in instance 11, game 5
+Scrolling to next game...
+Working through instance 11, game 6
+Waiting for loading screen in instance 11, game 6
+Exiting pop up in instance 11, game 6
+Social succeeded in instance 11, game 6
+Friends succeeded in instance 11, game 6
+Gift failed in instance 11, game 6
+Social Exit succeeded in instance 11, game 6
+Options succeeded in instance 11, game 6
+Switch Park succeeded in instance 11, game 6
+Scrolling to next game...
+Working through instance 11, game 7
+Waiting for loading screen in instance 11, game 7
+Exiting pop up in instance 11, game 7
+Social succeeded in instance 11, game 7
+Friends succeeded in instance 11, game 7
+Gift failed in instance 11, game 7
+Social Exit succeeded in instance 11, game 7
+Options succeeded in instance 11, game 7
+Switch Park succeeded in instance 11, game 7
+Scrolling to next game...
+Working through instance 11, game 8
+Waiting for loading screen in instance 11, game 8
+Exiting pop up in instance 11, game 8
+Social succeeded in instance 11, game 8
+Friends succeeded in instance 11, game 8
+Gift failed in instance 11, game 8
+Social Exit succeeded in instance 11, game 8
+Options succeeded in instance 11, game 8
+Switch Park succeeded in instance 11, game 8
+Scrolling to next game...
+Working through instance 11, game 9
+Waiting for loading screen in instance 11, game 9
+Exiting pop up in instance 11, game 9
+Social succeeded in instance 11, game 9
+Friends succeeded in instance 11, game 9
+Gift failed in instance 11, game 9
+Social Exit succeeded in instance 11, game 9
+Options succeeded in instance 11, game 9
+Switch Park succeeded in instance 11, game 9
+Scrolling to next game...
+Working through instance 11, game 10
+Waiting for loading screen in instance 11, game 10
+Exiting pop up in instance 11, game 10
+Social succeeded in instance 11, game 10
+Friends succeeded in instance 11, game 10
+Gift failed in instance 11, game 10
+Social Exit succeeded in instance 11, game 10
+Options succeeded in instance 11, game 10
+Switch Park succeeded in instance 11, game 10
+Scrolling to next game...
+Working through instance 11, game 11
+Waiting for loading screen in instance 11, game 11
+Exiting pop up in instance 11, game 11
+Social succeeded in instance 11, game 11
+Friends succeeded in instance 11, game 11
+Gift failed in instance 11, game 11
+Social Exit succeeded in instance 11, game 11
+Options succeeded in instance 11, game 11
+Switch Park succeeded in instance 11, game 11
+Scrolling to next game...
+Working through instance 11, game 12
+Waiting for loading screen in instance 11, game 12
+Exiting pop up in instance 11, game 12
+Social succeeded in instance 11, game 12
+Friends succeeded in instance 11, game 12
+Gift failed in instance 11, game 12
+Social Exit succeeded in instance 11, game 12
+Options succeeded in instance 11, game 12
+Switch Park succeeded in instance 11, game 12
+Scrolling to next game...
+Working through instance 11, game 13
+Waiting for loading screen in instance 11, game 13
+Exiting pop up in instance 11, game 13
+Social succeeded in instance 11, game 13
+Friends succeeded in instance 11, game 13
+Gift failed in instance 11, game 13
+Social Exit succeeded in instance 11, game 13
+Options succeeded in instance 11, game 13
+Switch Park succeeded in instance 11, game 13
+Scrolling to next game...
+Working through instance 11, game 14
+Waiting for loading screen in instance 11, game 14
+Exiting pop up in instance 11, game 14
+Social succeeded in instance 11, game 14
+Friends succeeded in instance 11, game 14
+Gift failed in instance 11, game 14
+Social Exit succeeded in instance 11, game 14
+Options succeeded in instance 11, game 14
+Switch Park succeeded in instance 11, game 14
+Scrolling to next game...
+Working through instance 11, game 15
+Waiting for loading screen in instance 11, game 15
+Exiting pop up in instance 11, game 15
+Social succeeded in instance 11, game 15
+Friends succeeded in instance 11, game 15
+Gift failed in instance 11, game 15
+Social Exit succeeded in instance 11, game 15
+Options succeeded in instance 11, game 15
+Switch Park succeeded in instance 11, game 15
+Scrolling to next game...
+Working through instance 11, game 16
+Waiting for loading screen in instance 11, game 16
+Exiting pop up in instance 11, game 16
+Exiting pop up in instance 11, game 16
+Social succeeded in instance 11, game 16
+Friends succeeded in instance 11, game 16
+Gift failed in instance 11, game 16
+Social Exit succeeded in instance 11, game 16
+Options succeeded in instance 11, game 16
+Switch Park succeeded in instance 11, game 16
+Scrolling to next game...
+Working through instance 11, game 17
+Waiting for loading screen in instance 11, game 17
+Exiting pop up in instance 11, game 17
+Social succeeded in instance 11, game 17
+Friends succeeded in instance 11, game 17
+Gift failed in instance 11, game 17
+Social Exit succeeded in instance 11, game 17
+Options succeeded in instance 11, game 17
+Switch Park succeeded in instance 11, game 17
+Scrolling to next game...
+Working through instance 11, game 18
+Waiting for loading screen in instance 11, game 18
+Exiting pop up in instance 11, game 18
+Social succeeded in instance 11, game 18
+Friends succeeded in instance 11, game 18
+Gift failed in instance 11, game 18
+Social Exit succeeded in instance 11, game 18
+Options succeeded in instance 11, game 18
+Switch Park succeeded in instance 11, game 18
+Scrolling to next game...
+Working through instance 11, game 19
+Waiting for loading screen in instance 11, game 19
+Exiting pop up in instance 11, game 19
+Exiting pop up in instance 11, game 19
+Social succeeded in instance 11, game 19
+Friends succeeded in instance 11, game 19
+Gift failed in instance 11, game 19
+Social Exit succeeded in instance 11, game 19
+Options succeeded in instance 11, game 19
+Switch Park succeeded in instance 11, game 19
+Scrolling to next game...
+Working through instance 11, game 20
+Waiting for loading screen in instance 11, game 20
+Exiting pop up in instance 11, game 20
+Social succeeded in instance 11, game 20
+Friends succeeded in instance 11, game 20
+Gift failed in instance 11, game 20
+Social Exit succeeded in instance 11, game 20
+Options succeeded in instance 11, game 20
+Switch Park succeeded in instance 11, game 20
+Scrolling to next game...
+Close Instance succeeded in instance 11, game 20
+Confirm Close Instance succeeded in instance 11, game 20
+Opening instance 12 in multi-instance manager
+Waiting for emulator instance to load...
+Clicking on DV app...
+Working through instance 12, game 0
+Waiting for loading screen in instance 12, game 0
+Exiting pop up in instance 12, game 0
+Exiting pop up in instance 12, game 0
+Social succeeded in instance 12, game 0
+Friends succeeded in instance 12, game 0
+Gift succeeded in instance 12, game 0
+Social Exit succeeded in instance 12, game 0
+Options succeeded in instance 12, game 0
+Switch Park succeeded in instance 12, game 0
+Scrolling to next game...
+Working through instance 12, game 1
+Waiting for loading screen in instance 12, game 1
+Exiting pop up in instance 12, game 1
+Exiting pop up in instance 12, game 1
+Exiting pop up in instance 12, game 1
+Social succeeded in instance 12, game 1
+Friends succeeded in instance 12, game 1
+Gift succeeded in instance 12, game 1
+Social Exit succeeded in instance 12, game 1
+Options succeeded in instance 12, game 1
+Switch Park failed in instance 12, game 1
+Switch Park failed in instance 12, game 1
+Switch Park failed in instance 12, game 1
+Switch Park failed in instance 12, game 1; backtracking to Options
+Options succeeded in instance 12, game 1
+Switch Park succeeded in instance 12, game 1
+Switch Park failed in instance 12, game 1
+Scrolling to next game...
+Working through instance 12, game 2
+Waiting for loading screen in instance 12, game 2
+Exiting pop up in instance 12, game 2
+Exiting pop up in instance 12, game 2
+Exiting pop up in instance 12, game 2
+Social succeeded in instance 12, game 2
+Friends succeeded in instance 12, game 2
+Gift succeeded in instance 12, game 2
+Social Exit succeeded in instance 12, game 2
+Options succeeded in instance 12, game 2
+Switch Park succeeded in instance 12, game 2
+Scrolling to next game...
+Working through instance 12, game 3
+Waiting for loading screen in instance 12, game 3
+Exiting pop up in instance 12, game 3
+Exiting pop up in instance 12, game 3
+Exiting pop up in instance 12, game 3
+Social succeeded in instance 12, game 3
+Friends succeeded in instance 12, game 3
+Gift succeeded in instance 12, game 3
+Social Exit succeeded in instance 12, game 3
+Options succeeded in instance 12, game 3
+Switch Park succeeded in instance 12, game 3
+Scrolling to next game...
+Working through instance 12, game 4
+Waiting for loading screen in instance 12, game 4
+Exiting pop up in instance 12, game 4
+Exiting pop up in instance 12, game 4
+Exiting pop up in instance 12, game 4
+Social succeeded in instance 12, game 4
+Friends succeeded in instance 12, game 4
+Gift succeeded in instance 12, game 4
+Social Exit succeeded in instance 12, game 4
+Options succeeded in instance 12, game 4
+Switch Park failed in instance 12, game 4
+Switch Park failed in instance 12, game 4
+Switch Park failed in instance 12, game 4
+Switch Park failed in instance 12, game 4; backtracking to Options
+Options succeeded in instance 12, game 4
+Switch Park succeeded in instance 12, game 4
+Switch Park failed in instance 12, game 4
+Scrolling to next game...
+Working through instance 12, game 5
+Waiting for loading screen in instance 12, game 5
+Exiting pop up in instance 12, game 5
+Exiting pop up in instance 12, game 5
+Exiting pop up in instance 12, game 5
+Social succeeded in instance 12, game 5
+Friends succeeded in instance 12, game 5
+Gift succeeded in instance 12, game 5
+Social Exit succeeded in instance 12, game 5
+Options succeeded in instance 12, game 5
+Switch Park succeeded in instance 12, game 5
+Scrolling to next game...
+Working through instance 12, game 6
+Waiting for loading screen in instance 12, game 6
+Exiting pop up in instance 12, game 6
+Exiting pop up in instance 12, game 6
+Exiting pop up in instance 12, game 6
+Social succeeded in instance 12, game 6
+Friends succeeded in instance 12, game 6
+Gift succeeded in instance 12, game 6
+Social Exit succeeded in instance 12, game 6
+Options succeeded in instance 12, game 6
+Switch Park succeeded in instance 12, game 6
+Scrolling to next game...
+Working through instance 12, game 7
+Waiting for loading screen in instance 12, game 7
+Exiting pop up in instance 12, game 7
+Exiting pop up in instance 12, game 7
+Exiting pop up in instance 12, game 7
+Social succeeded in instance 12, game 7
+Friends succeeded in instance 12, game 7
+Gift succeeded in instance 12, game 7
+Social Exit succeeded in instance 12, game 7
+Options succeeded in instance 12, game 7
+Switch Park succeeded in instance 12, game 7
+Scrolling to next game...
+Working through instance 12, game 8
+Waiting for loading screen in instance 12, game 8
+Exiting pop up in instance 12, game 8
+Exiting pop up in instance 12, game 8
+Exiting pop up in instance 12, game 8
+Social failed in instance 12, game 8
+Social succeeded in instance 12, game 8
+Friends succeeded in instance 12, game 8
+Gift succeeded in instance 12, game 8
+Social Exit succeeded in instance 12, game 8
+Options succeeded in instance 12, game 8
+Switch Park succeeded in instance 12, game 8
+Scrolling to next game...
+Working through instance 12, game 9
+Waiting for loading screen in instance 12, game 9
+Exiting pop up in instance 12, game 9
+Exiting pop up in instance 12, game 9
+Exiting pop up in instance 12, game 9
+Social succeeded in instance 12, game 9
+Friends succeeded in instance 12, game 9
+Gift succeeded in instance 12, game 9
+Social Exit succeeded in instance 12, game 9
+Options succeeded in instance 12, game 9
+Switch Park succeeded in instance 12, game 9
+Scrolling to next game...
+Working through instance 12, game 10
+Waiting for loading screen in instance 12, game 10
+Exiting pop up in instance 12, game 10
+Exiting pop up in instance 12, game 10
+Exiting pop up in instance 12, game 10
+Social succeeded in instance 12, game 10
+Friends succeeded in instance 12, game 10
+Gift succeeded in instance 12, game 10
+Social Exit succeeded in instance 12, game 10
+Options succeeded in instance 12, game 10
+Switch Park succeeded in instance 12, game 10
+Scrolling to next game...
+Working through instance 12, game 11
+Waiting for loading screen in instance 12, game 11
+Exiting pop up in instance 12, game 11
+Exiting pop up in instance 12, game 11
+Exiting pop up in instance 12, game 11
+Social succeeded in instance 12, game 11
+Friends succeeded in instance 12, game 11
+Gift succeeded in instance 12, game 11
+Social Exit succeeded in instance 12, game 11
+Options succeeded in instance 12, game 11
+Switch Park succeeded in instance 12, game 11
+Scrolling to next game...
+Working through instance 12, game 12
+Waiting for loading screen in instance 12, game 12
+Exiting pop up in instance 12, game 12
+Exiting pop up in instance 12, game 12
+Exiting pop up in instance 12, game 12
+Social succeeded in instance 12, game 12
+Friends succeeded in instance 12, game 12
+Gift succeeded in instance 12, game 12
+Social Exit succeeded in instance 12, game 12
+Options succeeded in instance 12, game 12
+Switch Park succeeded in instance 12, game 12
+Scrolling to next game...
+Working through instance 12, game 13
+Waiting for loading screen in instance 12, game 13
+Exiting pop up in instance 12, game 13
+Exiting pop up in instance 12, game 13
+Exiting pop up in instance 12, game 13
+Social succeeded in instance 12, game 13
+Friends succeeded in instance 12, game 13
+Gift succeeded in instance 12, game 13
+Social Exit succeeded in instance 12, game 13
+Options succeeded in instance 12, game 13
+Switch Park succeeded in instance 12, game 13
+Scrolling to next game...
+Working through instance 12, game 14
+Waiting for loading screen in instance 12, game 14
+Exiting pop up in instance 12, game 14
+Exiting pop up in instance 12, game 14
+Exiting pop up in instance 12, game 14
+Social succeeded in instance 12, game 14
+Friends succeeded in instance 12, game 14
+Gift succeeded in instance 12, game 14
+Social Exit succeeded in instance 12, game 14
+Options succeeded in instance 12, game 14
+Switch Park succeeded in instance 12, game 14
+Scrolling to next game...
+Working through instance 12, game 15
+Waiting for loading screen in instance 12, game 15
+Exiting pop up in instance 12, game 15
+Exiting pop up in instance 12, game 15
+Exiting pop up in instance 12, game 15
+Social succeeded in instance 12, game 15
+Friends succeeded in instance 12, game 15
+Gift succeeded in instance 12, game 15
+Social Exit succeeded in instance 12, game 15
+Options succeeded in instance 12, game 15
+Switch Park succeeded in instance 12, game 15
+Scrolling to next game...
+Working through instance 12, game 16
+Waiting for loading screen in instance 12, game 16
+Exiting pop up in instance 12, game 16
+Exiting pop up in instance 12, game 16
+Exiting pop up in instance 12, game 16
+Social succeeded in instance 12, game 16
+Friends succeeded in instance 12, game 16
+Gift succeeded in instance 12, game 16
+Social Exit succeeded in instance 12, game 16
+Options succeeded in instance 12, game 16
+Switch Park succeeded in instance 12, game 16
+Scrolling to next game...
+Working through instance 12, game 17
+Waiting for loading screen in instance 12, game 17
+Exiting pop up in instance 12, game 17
+Exiting pop up in instance 12, game 17
+Exiting pop up in instance 12, game 17
+Social succeeded in instance 12, game 17
+Friends succeeded in instance 12, game 17
+Gift succeeded in instance 12, game 17
+Social Exit succeeded in instance 12, game 17
+Options succeeded in instance 12, game 17
+Switch Park succeeded in instance 12, game 17
+Scrolling to next game...
+Working through instance 12, game 18
+Waiting for loading screen in instance 12, game 18
+Exiting pop up in instance 12, game 18
+Exiting pop up in instance 12, game 18
+Exiting pop up in instance 12, game 18
+Social succeeded in instance 12, game 18
+Friends succeeded in instance 12, game 18
+Gift succeeded in instance 12, game 18
+Social Exit succeeded in instance 12, game 18
+Options succeeded in instance 12, game 18
+Switch Park succeeded in instance 12, game 18
+Scrolling to next game...
+Working through instance 12, game 19
+Waiting for loading screen in instance 12, game 19
+Exiting pop up in instance 12, game 19
+Exiting pop up in instance 12, game 19
+Exiting pop up in instance 12, game 19
+Social succeeded in instance 12, game 19
+Friends succeeded in instance 12, game 19
+Gift succeeded in instance 12, game 19
+Social Exit succeeded in instance 12, game 19
+Options succeeded in instance 12, game 19
+Switch Park succeeded in instance 12, game 19
+Scrolling to next game...
+Working through instance 12, game 20
+Waiting for loading screen in instance 12, game 20
+Exiting pop up in instance 12, game 20
+Exiting pop up in instance 12, game 20
+Exiting pop up in instance 12, game 20
+Social succeeded in instance 12, game 20
+Friends succeeded in instance 12, game 20
+Gift succeeded in instance 12, game 20
+Social Exit succeeded in instance 12, game 20
+Options succeeded in instance 12, game 20
+Switch Park succeeded in instance 12, game 20
+Scrolling to next game...
+Close Instance succeeded in instance 12, game 20
+Confirm Close Instance succeeded in instance 12, game 20
+Opening instance 13 in multi-instance manager
+Waiting for emulator instance to load...
+Clicking on DV app...
+Working through instance 13, game 0
+Waiting for loading screen in instance 13, game 0
+Exiting pop up in instance 13, game 0
+Exiting pop up in instance 13, game 0
+Social succeeded in instance 13, game 0
+Friends succeeded in instance 13, game 0
+Gift succeeded in instance 13, game 0
+Social Exit succeeded in instance 13, game 0
+Options succeeded in instance 13, game 0
+Switch Park succeeded in instance 13, game 0
+Scrolling to next game...
+Working through instance 13, game 1
+Waiting for loading screen in instance 13, game 1
+Exiting pop up in instance 13, game 1
+Exiting pop up in instance 13, game 1
+Exiting pop up in instance 13, game 1
+Social succeeded in instance 13, game 1
+Friends succeeded in instance 13, game 1
+Gift succeeded in instance 13, game 1
+Social Exit succeeded in instance 13, game 1
+Options succeeded in instance 13, game 1
+Switch Park succeeded in instance 13, game 1
+Scrolling to next game...
+Working through instance 13, game 2
+Waiting for loading screen in instance 13, game 2
+Exiting pop up in instance 13, game 2
+Exiting pop up in instance 13, game 2
+Social succeeded in instance 13, game 2
+Friends succeeded in instance 13, game 2
+Gift succeeded in instance 13, game 2
+Social Exit succeeded in instance 13, game 2
+Options succeeded in instance 13, game 2
+Switch Park succeeded in instance 13, game 2
+Scrolling to next game...
+Working through instance 13, game 3
+Waiting for loading screen in instance 13, game 3
+Exiting pop up in instance 13, game 3
+Exiting pop up in instance 13, game 3
+Exiting pop up in instance 13, game 3
+Social succeeded in instance 13, game 3
+Friends succeeded in instance 13, game 3
+Gift succeeded in instance 13, game 3
+Social Exit succeeded in instance 13, game 3
+Options succeeded in instance 13, game 3
+Switch Park succeeded in instance 13, game 3
+Scrolling to next game...
+Working through instance 13, game 4
+Waiting for loading screen in instance 13, game 4
+Exiting pop up in instance 13, game 4
+Exiting pop up in instance 13, game 4
+Social succeeded in instance 13, game 4
+Friends succeeded in instance 13, game 4
+Gift succeeded in instance 13, game 4
+Social Exit succeeded in instance 13, game 4
+Options succeeded in instance 13, game 4
+Switch Park succeeded in instance 13, game 4
+Scrolling to next game...
+Working through instance 13, game 5
+Waiting for loading screen in instance 13, game 5
+Exiting pop up in instance 13, game 5
+Exiting pop up in instance 13, game 5
+Exiting pop up in instance 13, game 5
+Social succeeded in instance 13, game 5
+Friends succeeded in instance 13, game 5
+Gift succeeded in instance 13, game 5
+Social Exit succeeded in instance 13, game 5
+Options succeeded in instance 13, game 5
+Switch Park succeeded in instance 13, game 5
+Scrolling to next game...
+Working through instance 13, game 6
+Waiting for loading screen in instance 13, game 6
+Exiting pop up in instance 13, game 6
+Exiting pop up in instance 13, game 6
+Exiting pop up in instance 13, game 6
+Social succeeded in instance 13, game 6
+Friends succeeded in instance 13, game 6
+Gift succeeded in instance 13, game 6
+Social Exit succeeded in instance 13, game 6
+Options succeeded in instance 13, game 6
+Switch Park succeeded in instance 13, game 6
+Scrolling to next game...
+Working through instance 13, game 7
+Waiting for loading screen in instance 13, game 7
+Exiting pop up in instance 13, game 7
+Exiting pop up in instance 13, game 7
+Exiting pop up in instance 13, game 7
+Social succeeded in instance 13, game 7
+Friends succeeded in instance 13, game 7
+Gift succeeded in instance 13, game 7
+Social Exit succeeded in instance 13, game 7
+Options succeeded in instance 13, game 7
+Switch Park succeeded in instance 13, game 7
+Scrolling to next game...
+Working through instance 13, game 8
+Waiting for loading screen in instance 13, game 8
+Exiting pop up in instance 13, game 8
+Exiting pop up in instance 13, game 8
+Exiting pop up in instance 13, game 8
+Social succeeded in instance 13, game 8
+Friends succeeded in instance 13, game 8
+Gift succeeded in instance 13, game 8
+Social Exit succeeded in instance 13, game 8
+Options succeeded in instance 13, game 8
+Switch Park succeeded in instance 13, game 8
+Scrolling to next game...
+Working through instance 13, game 9
+Waiting for loading screen in instance 13, game 9
+Exiting pop up in instance 13, game 9
+Exiting pop up in instance 13, game 9
+Exiting pop up in instance 13, game 9
+Social succeeded in instance 13, game 9
+Friends succeeded in instance 13, game 9
+Gift succeeded in instance 13, game 9
+Social Exit succeeded in instance 13, game 9
+Options succeeded in instance 13, game 9
+Switch Park succeeded in instance 13, game 9
+Scrolling to next game...
+Working through instance 13, game 10
+Waiting for loading screen in instance 13, game 10
+Exiting pop up in instance 13, game 10
+Exiting pop up in instance 13, game 10
+Exiting pop up in instance 13, game 10
+Social succeeded in instance 13, game 10
+Friends succeeded in instance 13, game 10
+Gift succeeded in instance 13, game 10
+Social Exit succeeded in instance 13, game 10
+Options succeeded in instance 13, game 10
+Switch Park succeeded in instance 13, game 10
+Scrolling to next game...
+Working through instance 13, game 11
+Waiting for loading screen in instance 13, game 11
+Exiting pop up in instance 13, game 11
+Exiting pop up in instance 13, game 11
+Exiting pop up in instance 13, game 11
+Social succeeded in instance 13, game 11
+Friends succeeded in instance 13, game 11
+Gift succeeded in instance 13, game 11
+Social Exit succeeded in instance 13, game 11
+Options succeeded in instance 13, game 11
+Switch Park succeeded in instance 13, game 11
+Scrolling to next game...
+Working through instance 13, game 12
+Waiting for loading screen in instance 13, game 12
+Exiting pop up in instance 13, game 12
+Exiting pop up in instance 13, game 12
+Exiting pop up in instance 13, game 12
+Social succeeded in instance 13, game 12
+Friends succeeded in instance 13, game 12
+Gift succeeded in instance 13, game 12
+Social Exit succeeded in instance 13, game 12
+Options succeeded in instance 13, game 12
+Switch Park succeeded in instance 13, game 12
+Scrolling to next game...
+Working through instance 13, game 13
+Waiting for loading screen in instance 13, game 13
+Exiting pop up in instance 13, game 13
+Exiting pop up in instance 13, game 13
+Exiting pop up in instance 13, game 13
+Social succeeded in instance 13, game 13
+Friends succeeded in instance 13, game 13
+Gift succeeded in instance 13, game 13
+Social Exit succeeded in instance 13, game 13
+Options succeeded in instance 13, game 13
+Switch Park succeeded in instance 13, game 13
+Scrolling to next game...
+Working through instance 13, game 14
+Waiting for loading screen in instance 13, game 14
+Exiting pop up in instance 13, game 14
+Exiting pop up in instance 13, game 14
+Exiting pop up in instance 13, game 14
+Social succeeded in instance 13, game 14
+Friends succeeded in instance 13, game 14
+Gift succeeded in instance 13, game 14
+Social Exit succeeded in instance 13, game 14
+Options succeeded in instance 13, game 14
+Switch Park succeeded in instance 13, game 14
+Scrolling to next game...
+Working through instance 13, game 15
+Waiting for loading screen in instance 13, game 15
+Exiting pop up in instance 13, game 15
+Exiting pop up in instance 13, game 15
+Exiting pop up in instance 13, game 15
+Social succeeded in instance 13, game 15
+Friends succeeded in instance 13, game 15
+Gift succeeded in instance 13, game 15
+Social Exit succeeded in instance 13, game 15
+Options succeeded in instance 13, game 15
+Switch Park succeeded in instance 13, game 15
+Scrolling to next game...
+Working through instance 13, game 16
+Waiting for loading screen in instance 13, game 16
+Exiting pop up in instance 13, game 16
+Exiting pop up in instance 13, game 16
+Exiting pop up in instance 13, game 16
+Social succeeded in instance 13, game 16
+Friends succeeded in instance 13, game 16
+Gift succeeded in instance 13, game 16
+Social Exit succeeded in instance 13, game 16
+Options succeeded in instance 13, game 16
+Switch Park succeeded in instance 13, game 16
+Scrolling to next game...
+Working through instance 13, game 17
+Waiting for loading screen in instance 13, game 17
+Exiting pop up in instance 13, game 17
+Exiting pop up in instance 13, game 17
+Exiting pop up in instance 13, game 17
+Social succeeded in instance 13, game 17
+Friends succeeded in instance 13, game 17
+Gift succeeded in instance 13, game 17
+Social Exit succeeded in instance 13, game 17
+Options succeeded in instance 13, game 17
+Switch Park succeeded in instance 13, game 17
+Scrolling to next game...
+Working through instance 13, game 18
+Waiting for loading screen in instance 13, game 18
+Exiting pop up in instance 13, game 18
+Exiting pop up in instance 13, game 18
+Exiting pop up in instance 13, game 18
+Social succeeded in instance 13, game 18
+Friends succeeded in instance 13, game 18
+Gift succeeded in instance 13, game 18
+Social Exit succeeded in instance 13, game 18
+Options succeeded in instance 13, game 18
+Switch Park succeeded in instance 13, game 18
+Scrolling to next game...
+Working through instance 13, game 19
+Waiting for loading screen in instance 13, game 19
+Exiting pop up in instance 13, game 19
+Exiting pop up in instance 13, game 19
+Exiting pop up in instance 13, game 19
+Social succeeded in instance 13, game 19
+Friends succeeded in instance 13, game 19
+Gift succeeded in instance 13, game 19
+Social Exit succeeded in instance 13, game 19
+Options succeeded in instance 13, game 19
+Switch Park succeeded in instance 13, game 19
+Scrolling to next game...
+Working through instance 13, game 20
+Waiting for loading screen in instance 13, game 20
+Exiting pop up in instance 13, game 20
+Exiting pop up in instance 13, game 20
+Exiting pop up in instance 13, game 20
+Social succeeded in instance 13, game 20
+Friends succeeded in instance 13, game 20
+Gift succeeded in instance 13, game 20
+Social Exit succeeded in instance 13, game 20
+Options succeeded in instance 13, game 20
+Switch Park succeeded in instance 13, game 20
+Scrolling to next game...
+Close Instance succeeded in instance 13, game 20
+Confirm Close Instance succeeded in instance 13, game 20
+Opening instance 14 in multi-instance manager
+Waiting for emulator instance to load...
+Clicking on DV app...
+Working through instance 14, game 0
+Waiting for loading screen in instance 14, game 0
+Exiting pop up in instance 14, game 0
+Exiting pop up in instance 14, game 0
+Social succeeded in instance 14, game 0
+Friends failed in instance 14, game 0
+Friends succeeded in instance 14, game 0
+Gift succeeded in instance 14, game 0
+Social Exit succeeded in instance 14, game 0
+Options succeeded in instance 14, game 0
+Switch Park succeeded in instance 14, game 0
+Scrolling to next game...
+Working through instance 14, game 1
+Waiting for loading screen in instance 14, game 1
+Exiting pop up in instance 14, game 1
+Exiting pop up in instance 14, game 1
+Exiting pop up in instance 14, game 1
+Social succeeded in instance 14, game 1
+Friends succeeded in instance 14, game 1
+Gift succeeded in instance 14, game 1
+Social Exit succeeded in instance 14, game 1
+Options succeeded in instance 14, game 1
+Switch Park succeeded in instance 14, game 1
+Scrolling to next game...
+Working through instance 14, game 2
+Waiting for loading screen in instance 14, game 2
+Exiting pop up in instance 14, game 2
+Exiting pop up in instance 14, game 2
+Exiting pop up in instance 14, game 2
+Social succeeded in instance 14, game 2
+Friends succeeded in instance 14, game 2
+Gift succeeded in instance 14, game 2
+Social Exit succeeded in instance 14, game 2
+Options succeeded in instance 14, game 2
+Switch Park succeeded in instance 14, game 2
+Scrolling to next game...
+Working through instance 14, game 3
+Waiting for loading screen in instance 14, game 3
+Exiting pop up in instance 14, game 3
+Exiting pop up in instance 14, game 3
+Exiting pop up in instance 14, game 3
+Social succeeded in instance 14, game 3
+Friends succeeded in instance 14, game 3
+Gift succeeded in instance 14, game 3
+Social Exit succeeded in instance 14, game 3
+Options succeeded in instance 14, game 3
+Switch Park succeeded in instance 14, game 3
+Scrolling to next game...
+Working through instance 14, game 4
+Waiting for loading screen in instance 14, game 4
+Exiting pop up in instance 14, game 4
+Exiting pop up in instance 14, game 4
+Exiting pop up in instance 14, game 4
+Social succeeded in instance 14, game 4
+Friends succeeded in instance 14, game 4
+Gift succeeded in instance 14, game 4
+Social Exit succeeded in instance 14, game 4
+Options succeeded in instance 14, game 4
+Switch Park succeeded in instance 14, game 4
+Scrolling to next game...
+Working through instance 14, game 5
+Waiting for loading screen in instance 14, game 5
+Exiting pop up in instance 14, game 5
+Exiting pop up in instance 14, game 5
+Exiting pop up in instance 14, game 5
+Social succeeded in instance 14, game 5
+Friends succeeded in instance 14, game 5
+Gift succeeded in instance 14, game 5
+Social Exit succeeded in instance 14, game 5
+Options succeeded in instance 14, game 5
+Switch Park succeeded in instance 14, game 5
+Scrolling to next game...
+Working through instance 14, game 6
+Waiting for loading screen in instance 14, game 6
+Exiting pop up in instance 14, game 6
+Exiting pop up in instance 14, game 6
+Exiting pop up in instance 14, game 6
+Social succeeded in instance 14, game 6
+Friends succeeded in instance 14, game 6
+Gift succeeded in instance 14, game 6
+Social Exit succeeded in instance 14, game 6
+Options succeeded in instance 14, game 6
+Switch Park succeeded in instance 14, game 6
+Scrolling to next game...
+Working through instance 14, game 7
+Waiting for loading screen in instance 14, game 7
+Exiting pop up in instance 14, game 7
+Exiting pop up in instance 14, game 7
+Exiting pop up in instance 14, game 7
+Social succeeded in instance 14, game 7
+Friends succeeded in instance 14, game 7
+Gift succeeded in instance 14, game 7
+Social Exit succeeded in instance 14, game 7
+Options succeeded in instance 14, game 7
+Switch Park succeeded in instance 14, game 7
+Scrolling to next game...
+Working through instance 14, game 8
+Waiting for loading screen in instance 14, game 8
+Exiting pop up in instance 14, game 8
+Exiting pop up in instance 14, game 8
+Exiting pop up in instance 14, game 8
+Social succeeded in instance 14, game 8
+Friends succeeded in instance 14, game 8
+Gift succeeded in instance 14, game 8
+Social Exit succeeded in instance 14, game 8
+Options succeeded in instance 14, game 8
+Switch Park succeeded in instance 14, game 8
+Scrolling to next game...
+Working through instance 14, game 9
+Waiting for loading screen in instance 14, game 9
+Exiting pop up in instance 14, game 9
+Exiting pop up in instance 14, game 9
+Exiting pop up in instance 14, game 9
+Social succeeded in instance 14, game 9
+Friends succeeded in instance 14, game 9
+Gift succeeded in instance 14, game 9
+Social Exit succeeded in instance 14, game 9
+Options succeeded in instance 14, game 9
+Switch Park succeeded in instance 14, game 9
+Scrolling to next game...
+Working through instance 14, game 10
+Waiting for loading screen in instance 14, game 10
+Exiting pop up in instance 14, game 10
+Exiting pop up in instance 14, game 10
+Exiting pop up in instance 14, game 10
+Social succeeded in instance 14, game 10
+Friends succeeded in instance 14, game 10
+Gift succeeded in instance 14, game 10
+Social Exit succeeded in instance 14, game 10
+Options succeeded in instance 14, game 10
+Switch Park succeeded in instance 14, game 10
+Scrolling to next game...
+Working through instance 14, game 11
+Waiting for loading screen in instance 14, game 11
+Exiting pop up in instance 14, game 11
+Exiting pop up in instance 14, game 11
+Exiting pop up in instance 14, game 11
+Social succeeded in instance 14, game 11
+Friends succeeded in instance 14, game 11
+Gift succeeded in instance 14, game 11
+Social Exit succeeded in instance 14, game 11
+Options succeeded in instance 14, game 11
+Switch Park succeeded in instance 14, game 11
+Scrolling to next game...
+Working through instance 14, game 12
+Waiting for loading screen in instance 14, game 12
+Exiting pop up in instance 14, game 12
+Exiting pop up in instance 14, game 12
+Exiting pop up in instance 14, game 12
+Social succeeded in instance 14, game 12
+Friends succeeded in instance 14, game 12
+Gift succeeded in instance 14, game 12
+Social Exit succeeded in instance 14, game 12
+Options succeeded in instance 14, game 12
+Switch Park succeeded in instance 14, game 12
+Scrolling to next game...
+Working through instance 14, game 13
+Waiting for loading screen in instance 14, game 13
+Exiting pop up in instance 14, game 13
+Exiting pop up in instance 14, game 13
+Exiting pop up in instance 14, game 13
+Social succeeded in instance 14, game 13
+Friends succeeded in instance 14, game 13
+Gift succeeded in instance 14, game 13
+Social Exit succeeded in instance 14, game 13
+Options succeeded in instance 14, game 13
+Switch Park succeeded in instance 14, game 13
+Scrolling to next game...
+Working through instance 14, game 14
+Waiting for loading screen in instance 14, game 14
+Exiting pop up in instance 14, game 14
+Exiting pop up in instance 14, game 14
+Exiting pop up in instance 14, game 14
+Social succeeded in instance 14, game 14
+Friends succeeded in instance 14, game 14
+Gift succeeded in instance 14, game 14
+Social Exit succeeded in instance 14, game 14
+Options succeeded in instance 14, game 14
+Switch Park succeeded in instance 14, game 14
+Scrolling to next game...
+Working through instance 14, game 15
+Waiting for loading screen in instance 14, game 15
+Exiting pop up in instance 14, game 15
+Exiting pop up in instance 14, game 15
+Exiting pop up in instance 14, game 15
+Social succeeded in instance 14, game 15
+Friends succeeded in instance 14, game 15
+Gift succeeded in instance 14, game 15
+Social Exit succeeded in instance 14, game 15
+Options succeeded in instance 14, game 15
+Switch Park succeeded in instance 14, game 15
+Scrolling to next game...
+Working through instance 14, game 16
+Waiting for loading screen in instance 14, game 16
+Exiting pop up in instance 14, game 16
+Exiting pop up in instance 14, game 16
+Exiting pop up in instance 14, game 16
+Social succeeded in instance 14, game 16
+Friends succeeded in instance 14, game 16
+Gift succeeded in instance 14, game 16
+Social Exit succeeded in instance 14, game 16
+Options succeeded in instance 14, game 16
+Switch Park succeeded in instance 14, game 16
+Scrolling to next game...
+Working through instance 14, game 17
+Waiting for loading screen in instance 14, game 17
+Exiting pop up in instance 14, game 17
+Exiting pop up in instance 14, game 17
+Exiting pop up in instance 14, game 17
+Social succeeded in instance 14, game 17
+Friends succeeded in instance 14, game 17
+Gift succeeded in instance 14, game 17
+Social Exit succeeded in instance 14, game 17
+Options succeeded in instance 14, game 17
+Switch Park succeeded in instance 14, game 17
+Scrolling to next game...
+Working through instance 14, game 18
+Waiting for loading screen in instance 14, game 18
+Exiting pop up in instance 14, game 18
+Exiting pop up in instance 14, game 18
+Exiting pop up in instance 14, game 18
+Social succeeded in instance 14, game 18
+Friends succeeded in instance 14, game 18
+Gift failed in instance 14, game 18
+Social Exit succeeded in instance 14, game 18
+Options succeeded in instance 14, game 18
+Switch Park succeeded in instance 14, game 18
+Scrolling to next game...
+Working through instance 14, game 19
+Waiting for loading screen in instance 14, game 19
+Exiting pop up in instance 14, game 19
+Exiting pop up in instance 14, game 19
+Exiting pop up in instance 14, game 19
+Social succeeded in instance 14, game 19
+Friends succeeded in instance 14, game 19
+Gift succeeded in instance 14, game 19
+Social Exit succeeded in instance 14, game 19
+Options succeeded in instance 14, game 19
+Switch Park succeeded in instance 14, game 19
+Scrolling to next game...
+Working through instance 14, game 20
+Waiting for loading screen in instance 14, game 20
+Exiting pop up in instance 14, game 20
+Exiting pop up in instance 14, game 20
+Exiting pop up in instance 14, game 20
+Social succeeded in instance 14, game 20
+Friends succeeded in instance 14, game 20
+Gift succeeded in instance 14, game 20
+Social Exit succeeded in instance 14, game 20
+Options succeeded in instance 14, game 20
+Switch Park succeeded in instance 14, game 20
+Scrolling to next game...
+Close Instance succeeded in instance 14, game 20
+Confirm Close Instance succeeded in instance 14, game 20

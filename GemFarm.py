@@ -21,6 +21,8 @@ from termcolor import colored
 script_path = os.path.abspath(os.path.dirname(__file__))
 os.chdir(script_path)
 
+log = open('./GemFarmLog.txt', 'w')
+
 os.system('color')
 stdscr = curses.initscr()
 curses.noecho()
@@ -39,18 +41,25 @@ stdscr.nodelay(True)
 
 img_directory = './GemImgs'
 reset_count = 0
+gems_gifted = 0
+time_str = '0s'
+total_runtime = 0
+start = time.time()
 
 def iterate_through_emulator_instance(instance):
   img_path = img_directory + "/cluster" + str(instance)
 
+  log.write('Opening instance %d in multi-instance manager\n' % instance)
   # Launch instance through BlueStacks Multi Instance Manager
   loc = pyautogui.locateOnScreen(img_path + "/start_instance.png", confidence = 0.999)
   pyautogui.click(pyautogui.center(loc))
 
+  log.write('Waiting for emulator instance to load...\n')
   # Tap on DV app after waiting for instance to launch
   while (pyautogui.locateOnScreen("./WinLaptopImgs" + '/dv_app.png', confidence=0.95) is None):
     time.sleep(2)
   
+  log.write('Clicking on DV app...\n')
   pyautogui.click(pyautogui.center(pyautogui.locateOnScreen("./WinLaptopImgs/dv_app.png", confidence=0.9)))
 
   for i in range(21):
@@ -68,9 +77,11 @@ def iterate_through_emulator_instance(instance):
 
 
 def iterate_through_game_instance(game, instance):
+  log.write('Working through instance %d, game %d\n' % (instance, game))
   time.sleep(5)
   img_path = img_directory + "/cluster" + str(instance)
   # Wait until loading bar is finished
+  log.write('Waiting for loading screen in instance %d, game %d\n' % (instance, game))
   while (pyautogui.locateOnScreen(img_path + '/goals_grey.png', confidence=0.95) is None and
           pyautogui.locateOnScreen(img_path + '/goals.png', confidence=0.95) is None):
     time.sleep(3)
@@ -79,8 +90,10 @@ def iterate_through_game_instance(game, instance):
   # Exit pop-ups
 
   while pyautogui.locateOnScreen(img_path + '/goals_grey.png', confidence=0.9999) is not None:
-    stdscr.clear()
-    stdscr.addstr('Exiting Pop Ups', curses.color_pair(5))
+    log.write('Exiting pop up in instance %d, game %d\n' % (instance, game))
+    stdscr.move(5, 0)
+    stdscr.clrtoeol()
+    stdscr.addstr(5, 0, 'Exiting Pop Ups', curses.color_pair(5))
     stdscr.refresh()
     pyautogui.press('esc')
     time.sleep(2)
@@ -93,10 +106,18 @@ def iterate_through_game_instance(game, instance):
   find_and_click(img_directory + "/options.png", 0.9, "Options", game, instance)
   find_and_click(img_directory + "/switch_park.png", 0.8, "Switch Park", game, instance)
   
+  stdscr.clear()
+  stdscr.addstr(0, 0, 'Total gems: %d' % gems_gifted, curses.color_pair(4))
+  stdscr.addstr(1, 0, 'Duration: %s' % time.strftime("%H:%M:%S", time.gmtime(time.time() - start)), curses.color_pair(4))
+  stdscr.addstr(2, 0, 'Reset count: %d' % reset_count, curses.color_pair(4))
+  stdscr.addstr(3, 0, '========================================================', curses.color_pair(4))
+  stdscr.refresh()
+
   while (pyautogui.locateOnScreen(img_directory + "/view_hidden.png", 0.5) is None):
     time.sleep(2)
 
   # If last park in the emulator instance, reset park to starting game save
+  log.write('Scrolling to next game...\n')
   if (game == 20):
     time.sleep(2)
     pyautogui.click(435, 265)
@@ -131,7 +152,8 @@ def find_and_click(image_path, conf, step, game, instance):
 
     if (fail_count >= fail_limit):
       # change to throw exception, then catch it to skip the affected instance
-      raise Exception("Too many failures in instance %d game %d" % (instance, game))
+      log.write('[!!!] Too many failures in instance %d, game %d\n' % (instance, game))
+      raise Exception("Too many failures in instance %d, game %d" % (instance, game))
 
 
 
@@ -143,34 +165,40 @@ def find_and_click(image_path, conf, step, game, instance):
       pyautogui.click(target_center)
 
       success = True
-      # print(colored('Executing %s in iteration %d' % (step, iteration), 'green'))
-      stdscr.move(8, 0)
+      stdscr.move(5, 0)
       stdscr.clrtoeol()
-      stdscr.addstr(8, 0, 'Executing %s in game %d in instance %d' % (step, game, instance), curses.color_pair(2))
+      stdscr.addstr(5, 0, 'Executing %s in instance %d, game %d' % (step, instance, game), curses.color_pair(2))
       stdscr.refresh()
+      log.write('%s succeeded in instance %d, game %d\n' % (step, instance, game))
+
+      if (step == 'Gift'):
+        global gems_gifted
+        gems_gifted += 1
 
     else:
       
       # Case where the HUD dips at the exact moment of click and the program clicks bottom left
       if (step == "Switch Park" and fail_count > 2):
-        # print(colored('Avoided critical miss in iteration %d' % iteration, 'green'))
-        stdscr.move(8, 0)
+        stdscr.move(5, 0)
         stdscr.clrtoeol()
-        stdscr.addstr(8, 0, 'Avoided critical miss for Options in game %d' % game, curses.color_pair(2))
+        stdscr.addstr(5, 0, 'Avoided critical miss for Options in game %d' % game, curses.color_pair(2))
         stdscr.refresh()
+        log.write('%s failed in instance %d, game %d; backtracking to Options\n' % (step, instance, game))
         find_and_click(img_directory + '/options.png', 0.9, 'Options', game, instance)
         find_and_click(img_directory + '/switch_park.png', 0.9, 'Switch Park', game, instance)
         success = True
 
       if (step == "Friends" and fail_count > 2):
-        stdscr.move(8, 0)
+        stdscr.move(5, 0)
         stdscr.clrtoeol()
-        stdscr.addstr(8, 0, 'Avoided critical miss for Social in game %d' % game, curses.color_pair(2))
+        stdscr.addstr(5, 0, 'Avoided critical miss for Social in game %d' % game, curses.color_pair(2))
         stdscr.refresh()
+        log.write('%s failed in instance %d, game %d; backtracking to Social\n' % (step, instance, game))
         find_and_click(img_directory + '/social.png', 0.9, 'Social', game, instance)
         find_and_click(img_directory + '/friends.png', 0.9, 'Friends', game, instance)
         success = True
 
+      log.write('%s failed in instance %d, game %d\n' % (step, instance, game))
       fail_count += 1
       if (step == 'Gift'):
         time.sleep(1)
@@ -187,28 +215,11 @@ for x in range(3, 0, -1):
   time.sleep(1)
 
 stdscr.clear()
-
-# for i in range(3, 15):
-#   try:
-#     iterate_through_emulator_instance(i)
-#   except:
-#     reset_count += 1
-
-#      # attempt to restart instance that produced the failure
-    
-#     img_path = img_directory + "/cluster" + str(i)
-#     loc = pyautogui.locateOnScreen(img_path + "/start_instance.png", confidence = 0.999)
-
-#     if (loc is not None):
-#       iterate_through_emulator_instance(i)
-#     else:
-#       find_and_click(img_directory + '/close_instance.png', 0.95, "Close Instance", 20, i)
-#       find_and_click(img_directory + '/confirm_close_instance.png', 0.95, "Confirm Close Instance", 20, i)
-#       time.sleep(5)
-#       iterate_through_emulator_instance(i)
-
-# print("Finished with %d resets" % reset_count)
-
+stdscr.addstr(0, 0, 'Total gems: -', curses.color_pair(4))
+stdscr.addstr(1, 0, 'Duration: -', curses.color_pair(4))
+stdscr.addstr(2, 0, 'Reset count: -', curses.color_pair(4))
+stdscr.addstr(3, 0, '========================================================', curses.color_pair(4))
+stdscr.refresh()
 
 for i in range(3, 15):
   while True:  # Retry loop
