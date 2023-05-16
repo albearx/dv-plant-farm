@@ -46,7 +46,7 @@ iteration = 1
 time_str = '0s'
 total_runtime = 0
 start = None
-reset_count = 0
+reset_count = -1
 
 # Assumes the view of park includes both the nursery and the cave
 # Sets preconditions for plant_farm()
@@ -398,10 +398,15 @@ def start_farm():
     stdscr.refresh()
     time.sleep(1)
 
-  
+  stdscr.clear()
+  stdscr.addstr('Initializing plant farm...')
+  stdscr.refresh()
+  pyautogui.click(pyautogui.center(pyautogui.locateOnScreen(img_directory + '/start_instance.png', confidence=0.99)))
+  while (pyautogui.locateOnScreen(img_directory + '/dv_app.png', confidence=0.95) is None):
+    time.sleep(2)
 
   try:
-    set_preconditions()
+    reset_game()
     stdscr.clear()
     stdscr.addstr('Preconditions set, beginning plant farm', curses.color_pair(3))
     stdscr.refresh()
