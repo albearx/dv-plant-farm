@@ -58,7 +58,7 @@ def iterate_through_emulator_instance(instance):
   # Tap on DV app after waiting for instance to launch
   while (pyautogui.locateOnScreen("./WinLaptopImgs" + '/dv_app.png', confidence=0.95) is None):
     time.sleep(2)
-  
+  time.sleep(2)
   log.write('Clicking on DV app...\n')
   pyautogui.click(pyautogui.center(pyautogui.locateOnScreen("./WinLaptopImgs/dv_app.png", confidence=0.9)))
 
@@ -105,7 +105,7 @@ def iterate_through_game_instance(game, instance):
     pyautogui.press('esc')
     time.sleep(2)
 
-  find_and_click(img_directory + "/social.png", 0.9, "Social", game, instance)
+  find_and_click(img_directory + "/social.png", 0.9999, "Social", game, instance)
   find_and_click(img_directory + "/friends.png", 0.9, "Friends", game, instance)
   time.sleep(1.3)
   find_and_click(img_directory + "/gift.png", 0.96, "Gift", game, instance)
