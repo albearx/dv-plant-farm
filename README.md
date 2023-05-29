@@ -31,6 +31,8 @@ Make sure your breeding cave and nursery are completely visible when zoomed in a
 
 In your DVPlantFarm folder, make a new folder called `PlantFarmImgs`. This is where you will put your screenshots. Take the following screenshots and place them in folder which in the same directory as your script. These screenshots must match the given names EXACTLY and be .png filetypes. It is best to cut off the edges for less margin of error. For some of the screenshots, try and take them in areas that do not often have animations. Make sure buildings such as the breeding cave are not selected when you take the screenshot (the "selected" effect where the building glows white may interfere). There are 24 required screenshots that you must take from your OWN Dragonvale game on your OWN BlueStacks instance! Examples and names of the screenshots can be found in the `WinLaptopImgs` folder in this repository. Make sure all of the names match EXACTLY.
 
+Before beginning your plant farm, make sure your most recent breed in your breeding cave are two plant dragons (so that when you tap "Retry Breed", the plant dragons will breed). Make sure your nursery is either full with at least one plant dragon egg, or has EXACTLY one empty slot.
+
 To begin your plant farm, open your Bluestacks Multi Instance Manager. Make sure it is in view on your screen. In your command prompt, type `python PlantFarmInit.py` in order to begin the farm. To stop the farm, move your cursor (quickly) to any corner of the screen. 
 
 DM me on Discord `@AACommander#6432` if you need any further assistance/explanation.
