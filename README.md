@@ -1,4 +1,5 @@
 ## Instructions
+# (Skip if environment already set up)
 
 # Initial setup
 After cloning (and ensuring python and pip are installed):
@@ -7,6 +8,7 @@ After cloning (and ensuring python and pip are installed):
 `pip install Pillow`  <br />
 `pip install opencv-python` <br />
 `pip install windows-curses` (if you're using Windows)<br />
+`pip install termcolor` <br />
 `pip install colored` <br />
 
 The script itself is in `PlantFarm.py`. Included is also a simpler version that does not have restart functionality, but may be a little easier to set up. All code line numbers refer to within this file.
