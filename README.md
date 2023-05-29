@@ -2,7 +2,7 @@
 ### (Skip if environment already set up)
 
 Download and install Python: https://www.python.org/downloads/ <br />
-Ensure python is installed by opening command prompt after installation is complete by typing python --Version. If the command prompt says something along the lines of "unrecognized command", the installation was unsuccessful. <br /> <br />
+Ensure python is installed by opening command prompt after installation is complete by typing `python --Version`. If the command prompt says something along the lines of "unrecognized command", the installation was unsuccessful. <br /> <br />
 
 Make a new folder in your Desktop. Name it something like "DVPlantFarm". This is where all of your files for this plant farm will go. <br />
 In the command prompt, set the working directory to your Desktop. This can usually be done by typing `cd Desktop` in the terminal, but can vary depending on how your PC is set up. Type `cd DVPlantFarm` (or whatever the name of your folder is) to enter the program directory.<br /> <br />
