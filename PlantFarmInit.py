@@ -41,7 +41,7 @@ stdscr.keypad(True)
 stdscr.nodelay(True)
 
 execute = True
-img_directory = './WinLaptopImgs'
+img_directory = './PlantFarmImgs'
 iteration = 1
 time_str = '0s'
 total_runtime = 0
